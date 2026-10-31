@@ -1,0 +1,1808 @@
+[
+  {
+    "requisition_id": 1,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 1,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 2,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 2,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 2,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 2,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 3,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 3,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 4,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 4,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 4,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 5,
+    "skill_id": 2,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 5,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 5,
+    "skill_id": 9,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 5,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 6,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 6,
+    "skill_id": 7,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 6,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 7,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 7,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 7,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 7,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 8,
+    "skill_id": 9,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 8,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 8,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 9,
+    "skill_id": 11,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 9,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 9,
+    "skill_id": 14,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 10,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 10,
+    "skill_id": 10,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 10,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 10,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 11,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 11,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 12,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 12,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 13,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 13,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 13,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 13,
+    "skill_id": 5,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 14,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 14,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 14,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 15,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 15,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 16,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 16,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 17,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 17,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 18,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 18,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 18,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 19,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 19,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 20,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 20,
+    "skill_id": 14,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 20,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 21,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 21,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 21,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 22,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 22,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 22,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 22,
+    "skill_id": 6,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 23,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 23,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 23,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 24,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 24,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 24,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 24,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 25,
+    "skill_id": 10,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 25,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 25,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 26,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 26,
+    "skill_id": 13,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 27,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 27,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 27,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 28,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 28,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 28,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 29,
+    "skill_id": 5,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 29,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 29,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 30,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 30,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 31,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 31,
+    "skill_id": 9,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 32,
+    "skill_id": 5,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 32,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 32,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 33,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 33,
+    "skill_id": 12,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 33,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 33,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 34,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 34,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 35,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 35,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 36,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 36,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 36,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 37,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 37,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 38,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 38,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 38,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 39,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 39,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 39,
+    "skill_id": 3,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 40,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 40,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 40,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 41,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 41,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 41,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 41,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 42,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 42,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 43,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 43,
+    "skill_id": 3,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 43,
+    "skill_id": 10,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 44,
+    "skill_id": 9,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 44,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 45,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 45,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 45,
+    "skill_id": 2,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 46,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 46,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 46,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 47,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 47,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 47,
+    "skill_id": 13,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 48,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 48,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 48,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 48,
+    "skill_id": 10,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 49,
+    "skill_id": 3,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 49,
+    "skill_id": 13,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 50,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 50,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 51,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 51,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 51,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 52,
+    "skill_id": 14,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 52,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 52,
+    "skill_id": 12,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 53,
+    "skill_id": 12,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 53,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 53,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 53,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 54,
+    "skill_id": 9,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 54,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 55,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 55,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 56,
+    "skill_id": 12,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 56,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 56,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 56,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 57,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 57,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 57,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 57,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 58,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 58,
+    "skill_id": 5,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 59,
+    "skill_id": 13,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 59,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 59,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 60,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 60,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 60,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 61,
+    "skill_id": 11,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 61,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 61,
+    "skill_id": 3,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 62,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 62,
+    "skill_id": 12,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 63,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 63,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 63,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 63,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 64,
+    "skill_id": 15,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 64,
+    "skill_id": 13,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 64,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 64,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 65,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 65,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 65,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 66,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 66,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 66,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 66,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 67,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 67,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 68,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 68,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 68,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 69,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 69,
+    "skill_id": 7,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 69,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 70,
+    "skill_id": 12,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 70,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 70,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 71,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 71,
+    "skill_id": 14,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 71,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 71,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 72,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 72,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 72,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 73,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 73,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 73,
+    "skill_id": 14,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 73,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 74,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 74,
+    "skill_id": 7,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 74,
+    "skill_id": 8,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 74,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 75,
+    "skill_id": 2,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 75,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 75,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 76,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 76,
+    "skill_id": 7,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 77,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 77,
+    "skill_id": 5,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 78,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 78,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 78,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 78,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 79,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 79,
+    "skill_id": 7,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 79,
+    "skill_id": 2,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 79,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 80,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 80,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 81,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 81,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 81,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 81,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 82,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 82,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 82,
+    "skill_id": 14,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 83,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 83,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 84,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 84,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 85,
+    "skill_id": 12,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 85,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 85,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 86,
+    "skill_id": 12,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 86,
+    "skill_id": 13,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 86,
+    "skill_id": 6,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 86,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 87,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 87,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 87,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 87,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 88,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 88,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 88,
+    "skill_id": 3,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 88,
+    "skill_id": 5,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 89,
+    "skill_id": 9,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 89,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 89,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 89,
+    "skill_id": 11,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 90,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 90,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 90,
+    "skill_id": 14,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 91,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 91,
+    "skill_id": 6,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 91,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 91,
+    "skill_id": 14,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 92,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 5
+  },
+  {
+    "requisition_id": 92,
+    "skill_id": 2,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 92,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 93,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 93,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 93,
+    "skill_id": 7,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 93,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 94,
+    "skill_id": 2,
+    "is_mandatory": false,
+    "weight": 1
+  },
+  {
+    "requisition_id": 94,
+    "skill_id": 1,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 94,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 95,
+    "skill_id": 13,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 95,
+    "skill_id": 8,
+    "is_mandatory": false,
+    "weight": 4
+  },
+  {
+    "requisition_id": 95,
+    "skill_id": 7,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 95,
+    "skill_id": 4,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 96,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 4
+  },
+  {
+    "requisition_id": 96,
+    "skill_id": 13,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 97,
+    "skill_id": 10,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 97,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 97,
+    "skill_id": 1,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 98,
+    "skill_id": 12,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 98,
+    "skill_id": 7,
+    "is_mandatory": false,
+    "weight": 3
+  },
+  {
+    "requisition_id": 98,
+    "skill_id": 14,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 98,
+    "skill_id": 3,
+    "is_mandatory": true,
+    "weight": 1
+  },
+  {
+    "requisition_id": 99,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 99,
+    "skill_id": 9,
+    "is_mandatory": true,
+    "weight": 3
+  },
+  {
+    "requisition_id": 99,
+    "skill_id": 4,
+    "is_mandatory": true,
+    "weight": 2
+  },
+  {
+    "requisition_id": 100,
+    "skill_id": 6,
+    "is_mandatory": false,
+    "weight": 5
+  },
+  {
+    "requisition_id": 100,
+    "skill_id": 3,
+    "is_mandatory": false,
+    "weight": 2
+  },
+  {
+    "requisition_id": 100,
+    "skill_id": 15,
+    "is_mandatory": true,
+    "weight": 3
+  }
+]

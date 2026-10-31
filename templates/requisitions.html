@@ -1,0 +1,100 @@
+
+{% extends "base.html" %}
+
+{% block title %}Job Requisitions | RMS{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+    <h1>Job Requisition Management</h1>
+    <p>View and track recruitment requests across departments.</p>
+</div>
+
+<div class="card">
+    <h2>Search Job Requisitions</h2>
+
+    <form method="GET" action="{{ url_for('requisitions') }}">
+        <label for="search">Search by ID, job title or department</label>
+        <input
+            type="search"
+            id="search"
+            name="search"
+            value="{{ search }}"
+            placeholder="e.g. Python Developer"
+        >
+
+        <label for="status">Filter by status</label>
+        <select id="status" name="status">
+            <option value="">All Statuses</option>
+
+            {% for item in statuses %}
+            <option value="{{ item }}"
+                {% if selected_status == item %}selected{% endif %}>
+                {{ item.replace('_', ' ').title() }}
+            </option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Search Requisitions</button>
+        <a href="{{ url_for('requisitions') }}">Clear Filters</a>
+    </form>
+</div>
+
+<div class="card">
+    {% if session.get('role') in
+   ['SYSTEM_ADMIN', 'BUSINESS_REQUESTER', 'PROCESS_OWNER'] %}
+    <a class="edit-btn"
+       href="{{ url_for('create_requisition') }}">
+        + Create Job Requisition
+    </a>
+{% endif %}
+
+    <p>Total matching requisitions: {{ requisitions|length }}</p>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Requisition ID</th>
+                    <th>Job Title</th>
+                    <th>Department</th>
+                    <th>Employment Type</th>
+                    <th>Openings</th>
+                    <th>Salary Range (Annual)</th>
+                    <th>Status</th>
+                    <th>Requested By</th>
+                    <th>Created At</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for item in requisitions %}
+                <tr>
+                    <td>{{ item.requisition_code }}</td>
+                    <td>{{ item.job_title }}</td>
+                    <td>{{ item.department_name }}</td>
+                    <td>{{ item.employment_type.replace('_', ' ').title() }}</td>
+                    <td>{{ item.openings }}</td>
+                    <td>
+                        ₹{{ "{:,.0f}".format(item.min_salary) }}
+                        – ₹{{ "{:,.0f}".format(item.max_salary) }}
+                    </td>
+                    <td>
+                        <span class="status-badge status-{{ item.status|lower }}">
+                            {{ item.status.replace('_', ' ').title() }}
+                        </span>
+                    </td>
+                    <td>{{ item.requested_by }}</td>
+                    <td>{{ item.created_at.strftime('%d %b %Y') if item.created_at else '—' }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="9">No matching job requisitions found.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

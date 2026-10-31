@@ -1,0 +1,150 @@
+
+<h3>Application Status Chart</h3>
+<div class="approval-card">
+    <canvas id="applicationChart"></canvas>
+</div>
+
+
+<h3>Offer Status Chart</h3>
+<div class="approval-card offer-chart-container">
+    <canvas id="offerChart"></canvas>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+
+<script>
+    Chart.register(ChartDataLabels);
+
+    const applicationLabels = {{ application_stats
+        | map(attribute='status') | list | tojson }};
+
+    const applicationValues = {{ application_stats
+        | map(attribute='total') | list | tojson }};
+
+    const offerLabels = {{ offer_stats
+        | map(attribute='status') | list | tojson }};
+
+    const offerValues = {{ offer_stats
+        | map(attribute='total') | list | tojson }};
+
+    // Applications bar chart
+    new Chart(document.getElementById('applicationChart'), {
+        type: 'bar',
+        data: {
+            labels: applicationLabels,
+            datasets: [{
+                label: 'Number of Applications',
+                data: applicationValues
+            }]
+        },
+        options: {
+            responsive: true,
+            indexAxis: 'y',
+            plugins: {
+                legend: {
+                    display: false
+                },
+                datalabels: {
+                    anchor: 'end',
+                    align: 'end',
+                    color: '#222',
+                    font: {
+                        weight: 'bold'
+                    },
+                    formatter: value => value
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // Offers doughnut chart
+    new Chart(document.getElementById('offerChart'), {
+        type: 'doughnut',
+        data: {
+            labels: offerLabels,
+            datasets: [{
+                label: 'Number of Offers',
+                data: offerValues
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                },
+                datalabels: {
+                    color: '#fff',
+                    font: {
+                        weight: 'bold',
+                        size: 12
+                    },
+                    formatter: (value, context) => {
+                        const values = context.dataset.data;
+                        const total = values.reduce(
+                            (sum, number) => sum + number, 0
+                        );
+                        const percentage = (value / total * 100).toFixed(1);
+
+                        return value + ' (' + percentage + '%)';
+                    }
+                }
+            }
+        }
+    });
+</script>
+
+
+<script>
+    const applicationLabels = {{ application_stats
+        | map(attribute='status') | list | tojson }};
+
+    const applicationValues = {{ application_stats
+        | map(attribute='total') | list | tojson }};
+
+    const offerLabels = {{ offer_stats
+        | map(attribute='status') | list | tojson }};
+
+    const offerValues = {{ offer_stats
+        | map(attribute='total') | list | tojson }};
+
+    new Chart(document.getElementById('applicationChart'), {
+        type: 'bar',
+        data: {
+            labels: applicationLabels,
+            datasets: [{
+                label: 'Applications',
+                data: applicationValues
+            }]
+        },
+        options: {
+            responsive: true,
+            indexAxis: 'y',
+            scales: {
+                x: { beginAtZero: true }
+            }
+        }
+    });
+
+    new Chart(document.getElementById('offerChart'), {
+        type: 'doughnut',
+        data: {
+            labels: offerLabels,
+            datasets: [{
+                label: 'Offers',
+                data: offerValues
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+</script>

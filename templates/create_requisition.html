@@ -1,0 +1,58 @@
+
+{% extends "base.html" %}
+
+{% block title %}Create Job Requisition | RMS{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Create Job Requisition</h1>
+    <p>Submit a new recruitment request for review.</p>
+</div>
+
+<div class="card">
+    <form method="POST" action="{{ url_for('create_requisition') }}">
+
+        <label for="job_title">Job Title</label>
+        <input type="text" id="job_title" name="job_title"
+               maxlength="150" required>
+
+        <label for="department_id">Department</label>
+        <select id="department_id" name="department_id" required>
+            <option value="">Select Department</option>
+            {% for department in departments %}
+            <option value="{{ department.department_id }}">
+                {{ department.department_name }}
+            </option>
+            {% endfor %}
+        </select>
+
+        <label for="description">Job Description</label>
+        <textarea id="description" name="description"
+                  rows="5" maxlength="5000"></textarea>
+
+        <label for="employment_type">Employment Type</label>
+        <select id="employment_type" name="employment_type" required>
+            <option value="FULL_TIME">Full Time</option>
+            <option value="PART_TIME">Part Time</option>
+            <option value="CONTRACT">Contract</option>
+            <option value="INTERNSHIP">Internship</option>
+        </select>
+
+        <label for="openings">Number of Openings</label>
+        <input type="number" id="openings" name="openings"
+               min="1" max="1000" value="1" required>
+
+        <label for="min_salary">Minimum Annual Salary (₹)</label>
+        <input type="number" id="min_salary" name="min_salary"
+               min="0" max="9999999999" step="0.01" required>
+
+        <label for="max_salary">Maximum Annual Salary (₹)</label>
+        <input type="number" id="max_salary" name="max_salary"
+               min="0" max="9999999999" step="0.01" required>
+
+        <button type="submit">Submit Requisition</button>
+        <a href="{{ url_for('requisitions') }}">Cancel</a>
+
+    </form>
+</div>
+{% endblock %}

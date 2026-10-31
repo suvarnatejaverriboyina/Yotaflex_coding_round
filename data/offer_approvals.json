@@ -1,0 +1,1202 @@
+[
+  {
+    "offer_approval_id": 1,
+    "offer_id": 1,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-02 12:00:00"
+  },
+  {
+    "offer_approval_id": 2,
+    "offer_id": 2,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-04 12:00:00"
+  },
+  {
+    "offer_approval_id": 3,
+    "offer_id": 3,
+    "approver_name": "approver2",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 4,
+    "offer_id": 4,
+    "approver_name": "approver9",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-01 12:00:00"
+  },
+  {
+    "offer_approval_id": 5,
+    "offer_id": 5,
+    "approver_name": "approver5",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-10-31 12:00:00"
+  },
+  {
+    "offer_approval_id": 6,
+    "offer_id": 6,
+    "approver_name": "approver10",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-07 12:00:00"
+  },
+  {
+    "offer_approval_id": 7,
+    "offer_id": 7,
+    "approver_name": "approver1",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 8,
+    "offer_id": 8,
+    "approver_name": "approver8",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-07 12:00:00"
+  },
+  {
+    "offer_approval_id": 9,
+    "offer_id": 9,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-19 12:00:00"
+  },
+  {
+    "offer_approval_id": 10,
+    "offer_id": 10,
+    "approver_name": "approver9",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 11,
+    "offer_id": 11,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-03 12:00:00"
+  },
+  {
+    "offer_approval_id": 12,
+    "offer_id": 12,
+    "approver_name": "approver8",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-15 12:00:00"
+  },
+  {
+    "offer_approval_id": 13,
+    "offer_id": 13,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 14,
+    "offer_id": 14,
+    "approver_name": "approver2",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-15 12:00:00"
+  },
+  {
+    "offer_approval_id": 15,
+    "offer_id": 15,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-18 12:00:00"
+  },
+  {
+    "offer_approval_id": 16,
+    "offer_id": 16,
+    "approver_name": "approver4",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-09 12:00:00"
+  },
+  {
+    "offer_approval_id": 17,
+    "offer_id": 17,
+    "approver_name": "approver7",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-08 12:00:00"
+  },
+  {
+    "offer_approval_id": 18,
+    "offer_id": 18,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-02 12:00:00"
+  },
+  {
+    "offer_approval_id": 19,
+    "offer_id": 19,
+    "approver_name": "approver2",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 20,
+    "offer_id": 20,
+    "approver_name": "approver8",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 21,
+    "offer_id": 21,
+    "approver_name": "approver2",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 22,
+    "offer_id": 22,
+    "approver_name": "approver2",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-07 12:00:00"
+  },
+  {
+    "offer_approval_id": 23,
+    "offer_id": 23,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 24,
+    "offer_id": 24,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-02 12:00:00"
+  },
+  {
+    "offer_approval_id": 25,
+    "offer_id": 25,
+    "approver_name": "approver4",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 26,
+    "offer_id": 26,
+    "approver_name": "approver7",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-02 12:00:00"
+  },
+  {
+    "offer_approval_id": 27,
+    "offer_id": 27,
+    "approver_name": "approver6",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 28,
+    "offer_id": 28,
+    "approver_name": "approver5",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-16 12:00:00"
+  },
+  {
+    "offer_approval_id": 29,
+    "offer_id": 29,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-04 12:00:00"
+  },
+  {
+    "offer_approval_id": 30,
+    "offer_id": 30,
+    "approver_name": "approver6",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 31,
+    "offer_id": 31,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-10 12:00:00"
+  },
+  {
+    "offer_approval_id": 32,
+    "offer_id": 32,
+    "approver_name": "approver3",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 33,
+    "offer_id": 33,
+    "approver_name": "approver9",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-15 12:00:00"
+  },
+  {
+    "offer_approval_id": 34,
+    "offer_id": 34,
+    "approver_name": "approver7",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 35,
+    "offer_id": 35,
+    "approver_name": "approver5",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 36,
+    "offer_id": 36,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-09 12:00:00"
+  },
+  {
+    "offer_approval_id": 37,
+    "offer_id": 37,
+    "approver_name": "approver6",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 38,
+    "offer_id": 38,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-08 12:00:00"
+  },
+  {
+    "offer_approval_id": 39,
+    "offer_id": 39,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-12 12:00:00"
+  },
+  {
+    "offer_approval_id": 40,
+    "offer_id": 40,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-15 12:00:00"
+  },
+  {
+    "offer_approval_id": 41,
+    "offer_id": 41,
+    "approver_name": "approver9",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-01 12:00:00"
+  },
+  {
+    "offer_approval_id": 42,
+    "offer_id": 42,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-16 12:00:00"
+  },
+  {
+    "offer_approval_id": 43,
+    "offer_id": 43,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-12 12:00:00"
+  },
+  {
+    "offer_approval_id": 44,
+    "offer_id": 44,
+    "approver_name": "approver1",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 45,
+    "offer_id": 45,
+    "approver_name": "approver2",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 46,
+    "offer_id": 46,
+    "approver_name": "approver1",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-04 12:00:00"
+  },
+  {
+    "offer_approval_id": 47,
+    "offer_id": 47,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 48,
+    "offer_id": 48,
+    "approver_name": "approver8",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-15 12:00:00"
+  },
+  {
+    "offer_approval_id": 49,
+    "offer_id": 49,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-03 12:00:00"
+  },
+  {
+    "offer_approval_id": 50,
+    "offer_id": 50,
+    "approver_name": "approver1",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-17 12:00:00"
+  },
+  {
+    "offer_approval_id": 51,
+    "offer_id": 51,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-13 12:00:00"
+  },
+  {
+    "offer_approval_id": 52,
+    "offer_id": 52,
+    "approver_name": "approver3",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 53,
+    "offer_id": 53,
+    "approver_name": "approver7",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-07 12:00:00"
+  },
+  {
+    "offer_approval_id": 54,
+    "offer_id": 54,
+    "approver_name": "approver5",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-13 12:00:00"
+  },
+  {
+    "offer_approval_id": 55,
+    "offer_id": 55,
+    "approver_name": "approver7",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-16 12:00:00"
+  },
+  {
+    "offer_approval_id": 56,
+    "offer_id": 56,
+    "approver_name": "approver4",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-18 12:00:00"
+  },
+  {
+    "offer_approval_id": 57,
+    "offer_id": 57,
+    "approver_name": "approver6",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-03 12:00:00"
+  },
+  {
+    "offer_approval_id": 58,
+    "offer_id": 58,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-18 12:00:00"
+  },
+  {
+    "offer_approval_id": 59,
+    "offer_id": 59,
+    "approver_name": "approver1",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-18 12:00:00"
+  },
+  {
+    "offer_approval_id": 60,
+    "offer_id": 60,
+    "approver_name": "approver4",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 61,
+    "offer_id": 61,
+    "approver_name": "approver9",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-07 12:00:00"
+  },
+  {
+    "offer_approval_id": 62,
+    "offer_id": 62,
+    "approver_name": "approver9",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-02 12:00:00"
+  },
+  {
+    "offer_approval_id": 63,
+    "offer_id": 63,
+    "approver_name": "approver10",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-09 12:00:00"
+  },
+  {
+    "offer_approval_id": 64,
+    "offer_id": 64,
+    "approver_name": "approver1",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-03 12:00:00"
+  },
+  {
+    "offer_approval_id": 65,
+    "offer_id": 65,
+    "approver_name": "approver6",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 66,
+    "offer_id": 66,
+    "approver_name": "approver9",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 67,
+    "offer_id": 67,
+    "approver_name": "approver4",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-15 12:00:00"
+  },
+  {
+    "offer_approval_id": 68,
+    "offer_id": 68,
+    "approver_name": "approver5",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-18 12:00:00"
+  },
+  {
+    "offer_approval_id": 69,
+    "offer_id": 69,
+    "approver_name": "approver1",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-16 12:00:00"
+  },
+  {
+    "offer_approval_id": 70,
+    "offer_id": 70,
+    "approver_name": "approver2",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 71,
+    "offer_id": 71,
+    "approver_name": "approver7",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-12 12:00:00"
+  },
+  {
+    "offer_approval_id": 72,
+    "offer_id": 72,
+    "approver_name": "approver2",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 73,
+    "offer_id": 73,
+    "approver_name": "approver4",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 74,
+    "offer_id": 74,
+    "approver_name": "approver1",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 75,
+    "offer_id": 75,
+    "approver_name": "approver1",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-10-31 12:00:00"
+  },
+  {
+    "offer_approval_id": 76,
+    "offer_id": 76,
+    "approver_name": "approver9",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-19 12:00:00"
+  },
+  {
+    "offer_approval_id": 77,
+    "offer_id": 77,
+    "approver_name": "approver9",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-08 12:00:00"
+  },
+  {
+    "offer_approval_id": 78,
+    "offer_id": 78,
+    "approver_name": "approver8",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 79,
+    "offer_id": 79,
+    "approver_name": "approver10",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 80,
+    "offer_id": 80,
+    "approver_name": "approver9",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 81,
+    "offer_id": 81,
+    "approver_name": "approver4",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-10-31 12:00:00"
+  },
+  {
+    "offer_approval_id": 82,
+    "offer_id": 82,
+    "approver_name": "approver8",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-17 12:00:00"
+  },
+  {
+    "offer_approval_id": 83,
+    "offer_id": 83,
+    "approver_name": "approver5",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-10-31 12:00:00"
+  },
+  {
+    "offer_approval_id": 84,
+    "offer_id": 84,
+    "approver_name": "approver6",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-17 12:00:00"
+  },
+  {
+    "offer_approval_id": 85,
+    "offer_id": 85,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 86,
+    "offer_id": 86,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-08 12:00:00"
+  },
+  {
+    "offer_approval_id": 87,
+    "offer_id": 87,
+    "approver_name": "approver1",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 88,
+    "offer_id": 88,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-03 12:00:00"
+  },
+  {
+    "offer_approval_id": 89,
+    "offer_id": 89,
+    "approver_name": "approver8",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-08 12:00:00"
+  },
+  {
+    "offer_approval_id": 90,
+    "offer_id": 90,
+    "approver_name": "approver4",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-12 12:00:00"
+  },
+  {
+    "offer_approval_id": 91,
+    "offer_id": 91,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-11 12:00:00"
+  },
+  {
+    "offer_approval_id": 92,
+    "offer_id": 92,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-14 12:00:00"
+  },
+  {
+    "offer_approval_id": 93,
+    "offer_id": 93,
+    "approver_name": "approver1",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-11 12:00:00"
+  },
+  {
+    "offer_approval_id": 94,
+    "offer_id": 94,
+    "approver_name": "approver5",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-19 12:00:00"
+  },
+  {
+    "offer_approval_id": 95,
+    "offer_id": 95,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-11 12:00:00"
+  },
+  {
+    "offer_approval_id": 96,
+    "offer_id": 96,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-08 12:00:00"
+  },
+  {
+    "offer_approval_id": 97,
+    "offer_id": 97,
+    "approver_name": "approver8",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-03 12:00:00"
+  },
+  {
+    "offer_approval_id": 98,
+    "offer_id": 98,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-10-31 12:00:00"
+  },
+  {
+    "offer_approval_id": 99,
+    "offer_id": 99,
+    "approver_name": "approver5",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-18 12:00:00"
+  },
+  {
+    "offer_approval_id": 100,
+    "offer_id": 100,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-11 12:00:00"
+  },
+  {
+    "offer_approval_id": 101,
+    "offer_id": 101,
+    "approver_name": "approver9",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-14 12:00:00"
+  },
+  {
+    "offer_approval_id": 102,
+    "offer_id": 102,
+    "approver_name": "approver7",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 103,
+    "offer_id": 103,
+    "approver_name": "approver3",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-10 12:00:00"
+  },
+  {
+    "offer_approval_id": 104,
+    "offer_id": 104,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-11 12:00:00"
+  },
+  {
+    "offer_approval_id": 105,
+    "offer_id": 105,
+    "approver_name": "approver10",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 106,
+    "offer_id": 106,
+    "approver_name": "approver6",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-17 12:00:00"
+  },
+  {
+    "offer_approval_id": 107,
+    "offer_id": 107,
+    "approver_name": "approver4",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-14 12:00:00"
+  },
+  {
+    "offer_approval_id": 108,
+    "offer_id": 108,
+    "approver_name": "approver8",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-12 12:00:00"
+  },
+  {
+    "offer_approval_id": 109,
+    "offer_id": 109,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-01 12:00:00"
+  },
+  {
+    "offer_approval_id": 110,
+    "offer_id": 110,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-02 12:00:00"
+  },
+  {
+    "offer_approval_id": 111,
+    "offer_id": 111,
+    "approver_name": "approver8",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-08 12:00:00"
+  },
+  {
+    "offer_approval_id": 112,
+    "offer_id": 112,
+    "approver_name": "approver9",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-10-31 12:00:00"
+  },
+  {
+    "offer_approval_id": 113,
+    "offer_id": 113,
+    "approver_name": "approver8",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-14 12:00:00"
+  },
+  {
+    "offer_approval_id": 114,
+    "offer_id": 114,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-09 12:00:00"
+  },
+  {
+    "offer_approval_id": 115,
+    "offer_id": 115,
+    "approver_name": "approver4",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-10 12:00:00"
+  },
+  {
+    "offer_approval_id": 116,
+    "offer_id": 116,
+    "approver_name": "approver5",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-07 12:00:00"
+  },
+  {
+    "offer_approval_id": 117,
+    "offer_id": 117,
+    "approver_name": "approver1",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 118,
+    "offer_id": 118,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-12 12:00:00"
+  },
+  {
+    "offer_approval_id": 119,
+    "offer_id": 119,
+    "approver_name": "approver2",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 120,
+    "offer_id": 120,
+    "approver_name": "approver3",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-10 12:00:00"
+  },
+  {
+    "offer_approval_id": 121,
+    "offer_id": 121,
+    "approver_name": "approver6",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 122,
+    "offer_id": 122,
+    "approver_name": "approver8",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-08 12:00:00"
+  },
+  {
+    "offer_approval_id": 123,
+    "offer_id": 123,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-17 12:00:00"
+  },
+  {
+    "offer_approval_id": 124,
+    "offer_id": 124,
+    "approver_name": "approver4",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-07 12:00:00"
+  },
+  {
+    "offer_approval_id": 125,
+    "offer_id": 125,
+    "approver_name": "approver9",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-04 12:00:00"
+  },
+  {
+    "offer_approval_id": 126,
+    "offer_id": 126,
+    "approver_name": "approver4",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 127,
+    "offer_id": 127,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-13 12:00:00"
+  },
+  {
+    "offer_approval_id": 128,
+    "offer_id": 128,
+    "approver_name": "approver9",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-07 12:00:00"
+  },
+  {
+    "offer_approval_id": 129,
+    "offer_id": 129,
+    "approver_name": "approver10",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-17 12:00:00"
+  },
+  {
+    "offer_approval_id": 130,
+    "offer_id": 130,
+    "approver_name": "approver6",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 131,
+    "offer_id": 131,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-15 12:00:00"
+  },
+  {
+    "offer_approval_id": 132,
+    "offer_id": 132,
+    "approver_name": "approver2",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-06 12:00:00"
+  },
+  {
+    "offer_approval_id": 133,
+    "offer_id": 133,
+    "approver_name": "approver7",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-19 12:00:00"
+  },
+  {
+    "offer_approval_id": 134,
+    "offer_id": 134,
+    "approver_name": "approver1",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-15 12:00:00"
+  },
+  {
+    "offer_approval_id": 135,
+    "offer_id": 135,
+    "approver_name": "approver10",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 136,
+    "offer_id": 136,
+    "approver_name": "approver3",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 137,
+    "offer_id": 137,
+    "approver_name": "approver10",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-18 12:00:00"
+  },
+  {
+    "offer_approval_id": 138,
+    "offer_id": 138,
+    "approver_name": "approver6",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-10-31 12:00:00"
+  },
+  {
+    "offer_approval_id": 139,
+    "offer_id": 139,
+    "approver_name": "approver4",
+    "decision": "REJECTED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-03 12:00:00"
+  },
+  {
+    "offer_approval_id": 140,
+    "offer_id": 140,
+    "approver_name": "approver7",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-05 12:00:00"
+  },
+  {
+    "offer_approval_id": 141,
+    "offer_id": 141,
+    "approver_name": "approver7",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 142,
+    "offer_id": 142,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-01 12:00:00"
+  },
+  {
+    "offer_approval_id": 143,
+    "offer_id": 143,
+    "approver_name": "approver7",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-13 12:00:00"
+  },
+  {
+    "offer_approval_id": 144,
+    "offer_id": 144,
+    "approver_name": "approver3",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-06 12:00:00"
+  },
+  {
+    "offer_approval_id": 145,
+    "offer_id": 145,
+    "approver_name": "approver7",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  },
+  {
+    "offer_approval_id": 146,
+    "offer_id": 146,
+    "approver_name": "approver5",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-04 12:00:00"
+  },
+  {
+    "offer_approval_id": 147,
+    "offer_id": 147,
+    "approver_name": "approver1",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-02 12:00:00"
+  },
+  {
+    "offer_approval_id": 148,
+    "offer_id": 148,
+    "approver_name": "approver2",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-14 12:00:00"
+  },
+  {
+    "offer_approval_id": 149,
+    "offer_id": 149,
+    "approver_name": "approver7",
+    "decision": "APPROVED",
+    "comments": "Synthetic offer approval.",
+    "decided_at": "2026-11-19 12:00:00"
+  },
+  {
+    "offer_approval_id": 150,
+    "offer_id": 150,
+    "approver_name": "approver10",
+    "decision": "PENDING",
+    "comments": "Synthetic offer approval.",
+    "decided_at": null
+  }
+]

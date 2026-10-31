@@ -1,0 +1,95 @@
+
+{% extends "base.html" %}
+
+{% block title %}Application History | RMS{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+    <div>
+        <h1>Application Status History</h1>
+        <p>Review the recruitment journey for this application.</p>
+    </div>
+
+    <a href="{{ url_for('applications') }}" class="history-back-btn">
+        Back to Applications
+    </a>
+</div>
+
+<div class="card">
+    <h2>Application Details</h2>
+
+    <div class="history-details-grid">
+        <div>
+            <span>Application Code</span>
+            <strong>{{ application.application_code }}</strong>
+        </div>
+
+        <div>
+            <span>Candidate</span>
+            <strong>{{ application.full_name }}</strong>
+        </div>
+
+        <div>
+            <span>Email</span>
+            <strong>{{ application.email }}</strong>
+        </div>
+
+        <div>
+            <span>Job Title</span>
+            <strong>{{ application.job_title }}</strong>
+        </div>
+
+        <div>
+            <span>Requisition Code</span>
+            <strong>{{ application.requisition_code }}</strong>
+        </div>
+
+        <div>
+            <span>Current Status</span>
+            <strong>{{ application.current_status }}</strong>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Status Change History</h2>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Previous Status</th>
+                    <th>New Status</th>
+                    <th>Changed At</th>
+                    <th>Changed By</th>
+                    <th>Reason</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for record in history %}
+                <tr>
+                    <td>{{ record.previous_status or "Initial" }}</td>
+                    <td>
+                        <span class="status-badge">
+                            {{ record.new_status }}
+                        </span>
+                    </td>
+                    <td>{{ record.changed_at }}</td>
+                    <td>{{ record.changed_by }}</td>
+                    <td>{{ record.reason or "—" }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="5">
+                        No status history is available for this application.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

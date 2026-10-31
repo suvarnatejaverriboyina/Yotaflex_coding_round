@@ -1,0 +1,11 @@
+department_id,department_name,created_at
+1,Engineering,2026-01-01 09:00:00
+2,Human Resources,2026-01-01 09:00:00
+3,Finance,2026-01-01 09:00:00
+4,Marketing,2026-01-01 09:00:00
+5,Sales,2026-01-01 09:00:00
+6,Operations,2026-01-01 09:00:00
+7,Data Science,2026-01-01 09:00:00
+8,Information Technology,2026-01-01 09:00:00
+9,Customer Support,2026-01-01 09:00:00
+10,Product Management,2026-01-01 09:00:00

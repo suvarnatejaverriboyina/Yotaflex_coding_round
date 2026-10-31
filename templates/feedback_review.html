@@ -1,0 +1,70 @@
+
+{% extends "base.html" %}
+
+{% block title %}Feedback Review | RMS{% endblock %}
+
+{% block content %}
+<div class="page-container feedback-review">
+
+    <h1>Interview Feedback Review</h1>
+    <p>Review interviewer evaluations for this candidate.</p>
+
+    <div class="feedback-summary">
+        <p><strong>Candidate:</strong> {{ interview.full_name }}</p>
+        <p><strong>Application:</strong> {{ interview.application_code }}</p>
+        <p><strong>Interview:</strong> {{ interview.interview_code }}</p>
+        <p><strong>Round:</strong> {{ interview.interview_round }}</p>
+        <p><strong>Type:</strong> {{ interview.interview_type }}</p>
+    </div>
+
+    <h2>Submitted Evaluations</h2>
+
+    {% if feedback_list %}
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Interviewer</th>
+                    <th>Rating</th>
+                    <th>Recommendation</th>
+                    <th>Comments</th>
+                    <th>Submitted At</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for item in feedback_list %}
+                <tr>
+                    <td>{{ item.interviewer_name }}</td>
+                    <td>{{ item.rating }}/5</td>
+                    <td>
+                        <span class="recommendation-badge">
+                            {{ item.recommendation }}
+                        </span>
+                    </td>
+                    <td>{{ item.comments or "No comments" }}</td>
+                    <td>
+                        {% if item.submitted_at %}
+                            {{ item.submitted_at.strftime("%d %b %Y, %I:%M %p") }}
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+        <p>No feedback has been submitted for this interview yet.</p>
+    {% endif %}
+
+    <div class="form-actions">
+        <a href="{{ url_for('list_interviews') }}"
+           class="btn btn-secondary">
+            Back to Interviews
+        </a>
+    </div>
+
+</div>
+{% endblock %}

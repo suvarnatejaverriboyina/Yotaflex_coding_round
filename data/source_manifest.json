@@ -1,0 +1,85 @@
+{
+  "project": "Recruitment Lifecycle Management System",
+  "seed": 20261022,
+  "generator": "generator/data_generator.py",
+  "baseline_is_synthetic": true,
+  "anomaly_cases_separate": true,
+  "files": {
+    "departments.csv": {
+      "records": 10,
+      "sha256": "09094c832baf06fbd5c5cd55804597bf9f59d962ffb8e708b4ab16a9e1e2b582"
+    },
+    "job_requisitions.csv": {
+      "records": 100,
+      "sha256": "25e4e3aa09891e2b691efa7de7281cad79f3d52594365f3826ca0da9de3f5c55"
+    },
+    "candidates.csv": {
+      "records": 2000,
+      "sha256": "3284d3d71e8a9b3662b54c5d4547d9aaee4c0e3fcbcad34323b7aeb6ef1769d8"
+    },
+    "skills.csv": {
+      "records": 15,
+      "sha256": "d73c9329a81e4686f9ea4d760ec5f2251fc3aaab557002e472050682ae37f3d1"
+    },
+    "candidate_skills.csv": {
+      "records": 7028,
+      "sha256": "7fba799260f9cbcdd38431e27df63586fbe46df02e94233d707fe4b0a6883c47"
+    },
+    "required_skills.csv": {
+      "records": 301,
+      "sha256": "bd184579a6a4174d16e782c58bc5e1d398098f5cf647c01b67e636dfc361edbe"
+    },
+    "requisition_approvals.csv": {
+      "records": 100,
+      "sha256": "06c2c2992066883806330a20b9cbbc244e10b855e51031961754b0d060f6beb1"
+    },
+    "applications.csv": {
+      "records": 3000,
+      "sha256": "cac44c02be89c1bf3d8bfa0fe5f5d3d51d9837977a2cb49e6c61c0396aaf6c69"
+    },
+    "resume_artifacts.csv": {
+      "records": 2000,
+      "sha256": "903c983850f4a019945313fe35772faaf9723ba9383786a1392dbcf90cff1c8e"
+    },
+    "screening_rules.csv": {
+      "records": 200,
+      "sha256": "134a02308a5466d5a05c1b0a20c3ff3df6ed2a17229f257918f4dfedb7bfcec8"
+    },
+    "interviewers.csv": {
+      "records": 50,
+      "sha256": "1a63d17cbeb1cd097744330d40dda6a92043fd8aae12fc0f60a3f1046d827727"
+    },
+    "interviewer_availability.csv": {
+      "records": 1400,
+      "sha256": "5c0ec894c520dd3987070bd86935c38019ae8d30d8e97e1cfb724f238b7b604d"
+    },
+    "interviews.csv": {
+      "records": 600,
+      "sha256": "773f6afd138faeeadb270adffff07762559b4325b9323678dbd73e505b9568d4"
+    },
+    "interview_panel.csv": {
+      "records": 1200,
+      "sha256": "8b9abde3f055ec618bbccab5766cae6e3a55e23955a5446d6aca39539366c5c7"
+    },
+    "feedback.csv": {
+      "records": 372,
+      "sha256": "f158168e253b56ef5bba5cc90f4ede369ba38fd0ad1e30d67dc1df4b0864575b"
+    },
+    "offers.csv": {
+      "records": 150,
+      "sha256": "352b7a9d4424a334d69e0b4322530ab18869a944c1321b295be3bcca0c0b702a"
+    },
+    "offer_approvals.csv": {
+      "records": 150,
+      "sha256": "169e4c4b82fe5e64d9c5a307fef1f7b5836f3335850d536f46fa8410b04b0fa0"
+    },
+    "application_status_history.csv": {
+      "records": 7781,
+      "sha256": "626f05c568eb85db671d5fc49dac4023ba904fcf54f90f5de464f2f7c27a9ec6"
+    },
+    "audit_events.csv": {
+      "records": 3250,
+      "sha256": "4be52e5769ba03e25d01cb33371696bfcd0df4b7c3f9a50745f96ccf5270ae04"
+    }
+  }
+}

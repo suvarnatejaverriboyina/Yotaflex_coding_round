@@ -1,0 +1,103 @@
+
+{% extends "base.html" %}
+
+{% block title %}Offer Management | RMS{% endblock %}
+
+{% block content %}
+
+<div class="page-container offers-container">
+
+    <div class="offers-header">
+        <div>
+            <h1>Offer Management</h1>
+            <p>Manage candidate offers and track their progress.</p>
+        </div>
+
+        <a href="{{ url_for('create_offer') }}"
+           class="btn btn-primary">
+            + Create Offer
+        </a>
+    </div>
+
+    {% if offers %}
+
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Offer Code</th>
+                    <th>Candidate</th>
+                    <th>Application</th>
+                    <th>Job Title</th>
+                    <th>Offered Salary</th>
+                    <th>Status</th>
+                    <th>Issued Date</th>
+                    <th>Expiry Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for offer in offers %}
+                <tr>
+                    <td><strong>{{ offer.offer_code }}</strong></td>
+                    <td>{{ offer.full_name }}</td>
+                    <td>{{ offer.application_code }}</td>
+                    <td>{{ offer.job_title }}</td>
+
+                    <td>
+                        {{ offer.currency }}
+                        {{ "{:,.2f}".format(offer.offered_salary) }}
+                    </td>
+
+                    <td>
+                        <span class="offer-status status-{{ offer.status|lower|replace(' ', '-') }}">
+                            {{ offer.status }}
+                        </span>
+                    </td>
+
+                    <td>
+                        {% if offer.issued_at %}
+                            {{ offer.issued_at.strftime("%d %b %Y") }}
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+
+                    <td>
+                        {% if offer.expires_at %}
+                            {{ offer.expires_at.strftime("%d %b %Y") }}
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+
+                    <td>
+                        <a href="{{ url_for('offer_details', offer_id=offer.offer_id) }}"
+                           class="btn btn-primary">
+                            View Details
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    {% else %}
+
+    <div class="offers-empty-state">
+        <h3>No Offers Yet</h3>
+        <p>Offers you create will appear here.</p>
+
+        <a href="{{ url_for('create_offer') }}"
+           class="btn btn-primary">
+            Create Your First Offer
+        </a>
+    </div>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

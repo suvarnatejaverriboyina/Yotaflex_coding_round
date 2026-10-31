@@ -1,0 +1,42 @@
+[
+  {
+    "anomaly_id": "ANOM-001",
+    "anomaly_type": "INTERVIEWER_UNAVAILABLE",
+    "description": "Panel member is unavailable during the scheduled interview.",
+    "related_ids": "{\"interview_id\": 1, \"interviewer_id\": 42}",
+    "injected_record_json": "{\"scheduled_start\": \"2026-10-22 14:00:00\", \"availability_status\": \"UNAVAILABLE\"}",
+    "expected_detection": true
+  },
+  {
+    "anomaly_id": "ANOM-002",
+    "anomaly_type": "DUPLICATE_APPLICATION",
+    "description": "Candidate applies twice to the same requisition.",
+    "related_ids": "{\"original_application_id\": 1, \"requisition_id\": 37, \"candidate_id\": 1841}",
+    "injected_record_json": "{\"application_id\": 3001, \"application_code\": \"ANOM-DUPLICATE-APPLICATION\", \"requisition_id\": 37, \"candidate_id\": 1841, \"applied_at\": \"2026-04-25 15:45:00\", \"source\": \"CAREER_PORTAL\", \"status\": \"SHORTLISTED\", \"screening_score\": 58.09, \"withdrawn_at\": null, \"created_at\": \"2026-04-25 15:45:00\"}",
+    "expected_detection": true
+  },
+  {
+    "anomaly_id": "ANOM-003",
+    "anomaly_type": "MISSING_INTERVIEW_FEEDBACK",
+    "description": "Application is at interview stage but required feedback is missing.",
+    "related_ids": "{\"application_id\": 2}",
+    "injected_record_json": "{\"application_id\": 2, \"new_status\": \"INTERVIEW\", \"feedback_exists\": false}",
+    "expected_detection": true
+  },
+  {
+    "anomaly_id": "ANOM-004",
+    "anomaly_type": "SALARY_OUTSIDE_APPROVED_BAND",
+    "description": "Offer exceeds the requisition maximum salary.",
+    "related_ids": "{\"offer_id\": 1, \"requisition_id\": 19}",
+    "injected_record_json": "{\"offered_salary\": 800000, \"min_salary\": 500000, \"max_salary\": 700000}",
+    "expected_detection": true
+  },
+  {
+    "anomaly_id": "ANOM-005",
+    "anomaly_type": "CLOSED_JOB_ACTIVE_APPLICATION",
+    "description": "Closed requisition has an active application.",
+    "related_ids": "{\"requisition_id\": 15, \"application_id\": null}",
+    "injected_record_json": "{\"requisition_status\": \"CLOSED\", \"application_status\": \"APPLIED\"}",
+    "expected_detection": true
+  }
+]

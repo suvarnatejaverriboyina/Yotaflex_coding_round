@@ -1,0 +1,63 @@
+
+{% extends "base.html" %}
+
+{% block title %}Candidate Directory | RMS{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div>
+        <h1>Candidate Directory</h1>
+        <p>View and search registered candidates.</p>
+    </div>
+</div>
+
+<div class="card">
+    <form method="GET" action="{{ url_for('candidates') }}"
+          class="search-form">
+        <input
+            type="text"
+            name="search"
+            placeholder="Search by name, code, email or phone"
+            value="{{ search }}"
+        >
+        <button type="submit">Search</button>
+        <a href="{{ url_for('candidates') }}">Clear</a>
+    </form>
+</div>
+
+<div class="card">
+    <h2>All Candidates ({{ candidates|length }})</h2>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Candidate Code</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Experience (Years)</th>
+                    <th>Registered At</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for candidate in candidates %}
+                <tr>
+                    <td>{{ candidate.candidate_code }}</td>
+                    <td>{{ candidate.full_name }}</td>
+                    <td>{{ candidate.email }}</td>
+                    <td>{{ candidate.phone or "—" }}</td>
+                    <td>{{ candidate.experience_years }}</td>
+                    <td>{{ candidate.created_at }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="6">No candidates found.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

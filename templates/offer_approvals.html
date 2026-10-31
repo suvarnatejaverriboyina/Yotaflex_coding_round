@@ -1,0 +1,70 @@
+
+{% extends "base.html" %}
+
+{% block title %}Offer Approvals{% endblock %}
+
+{% block content %}
+<div class="page-container">
+    <div class="offers-header">
+        <div>
+            <h1>Offer Approvals</h1>
+            <p>Review and decide on pending job offers.</p>
+        </div>
+
+        <a href="{{ url_for('list_offers') }}"
+           class="btn-secondary">
+            View All Offers
+        </a>
+    </div>
+
+    {% if approvals %}
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Offer Code</th>
+                    <th>Candidate</th>
+                    <th>Job Title</th>
+                    <th>Salary</th>
+                    <th>Approver</th>
+                    <th>Expiry Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for item in approvals %}
+                <tr>
+                    <td>{{ item.offer_code }}</td>
+                    <td>{{ item.full_name }}</td>
+                    <td>{{ item.job_title }}</td>
+                    <td>
+                        {{ item.currency }}
+                        {{ "%.2f"|format(item.offered_salary) }}
+                    </td>
+                    <td>{{ item.approver_name }}</td>
+                    <td>
+                        {{ item.expires_at or "Not specified" }}
+                    </td>
+                    <td>
+                        <a class="btn-primary"
+                           href="{{ url_for(
+                               'review_approval',
+                               approval_id=item.offer_approval_id
+                           ) }}">
+                            Review
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+        <div class="empty-state">
+            <h3>No Pending Approvals</h3>
+            <p>There are currently no offers waiting for approval.</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

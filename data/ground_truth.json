@@ -1,0 +1,27 @@
+[
+  {
+    "anomaly_id": "ANOM-001",
+    "anomaly_type": "INTERVIEWER_UNAVAILABLE",
+    "expected_detection": true
+  },
+  {
+    "anomaly_id": "ANOM-002",
+    "anomaly_type": "DUPLICATE_APPLICATION",
+    "expected_detection": true
+  },
+  {
+    "anomaly_id": "ANOM-003",
+    "anomaly_type": "MISSING_INTERVIEW_FEEDBACK",
+    "expected_detection": true
+  },
+  {
+    "anomaly_id": "ANOM-004",
+    "anomaly_type": "SALARY_OUTSIDE_APPROVED_BAND",
+    "expected_detection": true
+  },
+  {
+    "anomaly_id": "ANOM-005",
+    "anomaly_type": "CLOSED_JOB_ACTIVE_APPLICATION",
+    "expected_detection": true
+  }
+]

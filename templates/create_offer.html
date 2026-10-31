@@ -1,0 +1,83 @@
+
+{% extends "base.html" %}
+
+{% block title %}Create Offer | RMS{% endblock %}
+
+{% block content %}
+<div class="page-container offer-container">
+
+    <h1>Create Job Offer</h1>
+    <p>Create an offer for a hired candidate.</p>
+
+    {% if candidates %}
+    <form method="POST" action="{{ url_for('create_offer') }}">
+
+        <div class="form-group">
+            <label for="application_id">Candidate / Application</label>
+            <select id="application_id" name="application_id" required>
+                <option value="">Select candidate</option>
+                {% for candidate in candidates %}
+                <option value="{{ candidate.application_id }}">
+                    {{ candidate.full_name }} —
+                    {{ candidate.application_code }} —
+                    {{ candidate.job_title }}
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="offered_salary">Offered Salary</label>
+            <input
+                type="number"
+                id="offered_salary"
+                name="offered_salary"
+                min="0.01"
+                step="0.01"
+                placeholder="e.g. 650000"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="currency">Currency</label>
+            <select id="currency" name="currency" required>
+                <option value="INR">INR — Indian Rupee</option>
+                <option value="USD">USD — US Dollar</option>
+                <option value="EUR">EUR — Euro</option>
+                <option value="GBP">GBP — British Pound</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="expires_at">Offer Expiry</label>
+            <input
+                type="datetime-local"
+                id="expires_at"
+                name="expires_at"
+                required
+            >
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">
+                Create Draft Offer
+            </button>
+
+            <a href="{{ url_for('list_offers') }}"
+               class="btn btn-secondary">
+                Cancel
+            </a>
+        </div>
+    </form>
+
+    {% else %}
+        <p>No hired applications without an existing offer were found.</p>
+        <a href="{{ url_for('list_offers') }}"
+           class="btn btn-primary">
+            View Offers
+        </a>
+    {% endif %}
+
+</div>
+{% endblock %}

@@ -1,0 +1,59 @@
+
+{% extends "base.html" %}
+
+{% block title %}Shortlisted Candidates | RMS{% endblock %}
+
+{% block content %}
+<div class="page-container">
+    <h1>Shortlisted Candidates</h1>
+    <p>Review shortlisted applicants and schedule interviews.</p>
+
+    {% if candidates %}
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Candidate</th>
+                    <th>Email</th>
+                    <th>Application Code</th>
+                    <th>Job Title</th>
+                    <th>Screening Score</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for candidate in candidates %}
+                <tr>
+                    <td>{{ candidate.full_name }}</td>
+                    <td>{{ candidate.email }}</td>
+                    <td>{{ candidate.application_code }}</td>
+                    <td>{{ candidate.job_title }}</td>
+                    <td>
+                        {% if candidate.screening_score is not none %}
+                            {{ "%.2f"|format(candidate.screening_score) }}%
+                        {% else %}
+                            Not screened
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a
+                            href="{{ url_for(
+                                'schedule_interview',
+                                application_id=candidate.application_id
+                            ) }}"
+                            class="btn btn-primary"
+                        >
+                            Schedule Interview
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+        <p>No shortlisted candidates found.</p>
+    {% endif %}
+</div>
+{% endblock %}

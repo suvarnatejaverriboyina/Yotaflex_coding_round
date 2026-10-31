@@ -1,0 +1,123 @@
+
+{% extends "base.html" %}
+
+{% block title %}Schedule Interview | RMS{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div>
+        <h1>Schedule Interview</h1>
+        <p>Schedule an interview for a shortlisted candidate.</p>
+    </div>
+    <a href="{{ url_for('list_interviews') }}" class="btn-secondary">
+        View All Interviews
+    </a>
+</div>
+
+<div class="card interview-form-card">
+    <form method="POST"
+          action="{{ url_for('schedule_interview') }}"
+          class="interview-form">
+
+        <div class="form-group">
+            <label for="application_id">Shortlisted Application *</label>
+            <select id="application_id"
+                    name="application_id"
+                    required>
+                <option value="">Select an application</option>
+                {% for item in applications %}
+                    <option value="{{ item.application_id }}">
+                        {{ item.application_code }}
+                    </option>
+                {% endfor %}
+            </select>
+
+            {% if not applications %}
+                <small>No shortlisted applications are available.</small>
+            {% endif %}
+        </div>
+
+        <div class="form-group">
+            <label for="interviewer_id">Interviewer *</label>
+            <select id="interviewer_id"
+                    name="interviewer_id"
+                    required>
+                <option value="">Select an interviewer</option>
+                {% for interviewer in interviewers %}
+                    <option value="{{ interviewer.interviewer_id }}">
+                        {{ interviewer.interviewer_name }}
+                        ({{ interviewer.interviewer_code }})
+                    </option>
+                {% endfor %}
+            </select>
+
+            {% if not interviewers %}
+                <small>No active interviewers are available.</small>
+            {% endif %}
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="interview_round">Interview Round *</label>
+                <input type="number"
+                       id="interview_round"
+                       name="interview_round"
+                       min="1"
+                       max="10"
+                       value="1"
+                       required>
+            </div>
+
+            <div class="form-group">
+                <label for="interview_type">Interview Type *</label>
+                <select id="interview_type"
+                        name="interview_type"
+                        required>
+                    <option value="TECHNICAL">Technical</option>
+                    <option value="HR">HR</option>
+                    <option value="MANAGERIAL">Managerial</option>
+                    <option value="FINAL">Final Round</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="scheduled_start">Start Date & Time *</label>
+                <input type="datetime-local"
+                       id="scheduled_start"
+                       name="scheduled_start"
+                       required>
+            </div>
+
+            <div class="form-group">
+                <label for="scheduled_end">End Date & Time *</label>
+                <input type="datetime-local"
+                       id="scheduled_end"
+                       name="scheduled_end"
+                       required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="meeting_details">Meeting Details</label>
+            <textarea id="meeting_details"
+                      name="meeting_details"
+                      rows="3"
+                      maxlength="500"
+                      placeholder="Meeting link, room number, or other instructions"></textarea>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit"
+                    {% if not applications or not interviewers %}disabled{% endif %}>
+                Schedule Interview
+            </button>
+
+            <a href="{{ url_for('dashboard') }}" class="btn-secondary">
+                Cancel
+            </a>
+        </div>
+    </form>
+</div>
+{% endblock %}

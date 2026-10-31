@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}Review Offer Approval{% endblock %}
+
+{% block content %}
+<div class="page-container">
+    <div class="offers-header">
+        <div>
+            <h1>Review Job Offer</h1>
+            <p>Review the offer details before making a decision.</p>
+        </div>
+
+        <a href="{{ url_for('offer_approvals') }}" class="btn-secondary">
+            Back to Approvals
+        </a>
+    </div>
+
+    <div class="approval-card">
+        <h2>{{ approval.offer_code }}</h2>
+
+        <div class="approval-details">
+            <p><strong>Candidate:</strong> {{ approval.full_name }}</p>
+            <p><strong>Email:</strong> {{ approval.email }}</p>
+            <p><strong>Job Title:</strong> {{ approval.job_title }}</p>
+            <p><strong>Application:</strong> {{ approval.application_code }}</p>
+            <p>
+                <strong>Offered Salary:</strong>
+                {{ approval.currency }}
+                {{ "%.2f"|format(approval.offered_salary) }}
+            </p>
+            <p><strong>Offer Status:</strong> {{ approval.offer_status }}</p>
+            <p><strong>Assigned Approver:</strong> {{ approval.approver_name }}</p>
+            <p><strong>Decision:</strong> {{ approval.decision }}</p>
+            <p><strong>Expiry:</strong> {{ approval.expires_at or "Not specified" }}</p>
+            <p><strong>Comments:</strong> {{ approval.comments or "No comments yet" }}</p>
+        </div>
+
+        {% if approval.decision == 'PENDING'
+        and approval.offer_status == 'PENDING_APPROVAL' %}
+        <p class="approval-note">
+            This offer is awaiting a decision. Approval and rejection
+            actions will be enabled after we add the decision handler.
+        </p>
+        {% else %}
+        <p class="approval-note">
+            This approval has already been decided or is no longer pending.
+        </p>
+        {% endif %}
+
+        {% if approval.decision == 'PENDING'
+        and approval.offer_status == 'PENDING_APPROVAL' %}
+
+        <form method="POST" action="{{ url_for('decide_offer_approval',
+                             approval_id=approval.offer_approval_id) }}" class="approval-form">
+
+            <label for="comments">Comments (optional)</label>
+            <textarea id="comments" name="comments" rows="4"
+                placeholder="Enter the reason for your decision"></textarea>
+
+            <div class="approval-actions">
+                <button type="submit" name="decision" value="APPROVED" class="btn-primary"
+                    onclick="return confirm('Approve this offer?');">
+                    Approve Offer
+                </button>
+
+                <button type="submit" name="decision" value="REJECTED" class="btn-danger"
+                    onclick="return confirm('Reject this offer?');">
+                    Reject Offer
+                </button>
+            </div>
+        </form>
+
+        {% else %}
+        <p>This approval has already been processed.</p>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}

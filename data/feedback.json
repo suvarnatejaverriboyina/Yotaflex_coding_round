@@ -1,0 +1,3722 @@
+[
+  {
+    "feedback_id": 1,
+    "feedback_code": "FB-000002-0027",
+    "interview_id": 2,
+    "interviewer_id": 27,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 11:00:00"
+  },
+  {
+    "feedback_id": 2,
+    "feedback_code": "FB-000002-0037",
+    "interview_id": 2,
+    "interviewer_id": 37,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 11:00:00"
+  },
+  {
+    "feedback_id": 3,
+    "feedback_code": "FB-000004-0014",
+    "interview_id": 4,
+    "interviewer_id": 14,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 12:00:00"
+  },
+  {
+    "feedback_id": 4,
+    "feedback_code": "FB-000004-0042",
+    "interview_id": 4,
+    "interviewer_id": 42,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 12:00:00"
+  },
+  {
+    "feedback_id": 5,
+    "feedback_code": "FB-000006-0010",
+    "interview_id": 6,
+    "interviewer_id": 10,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 13:00:00"
+  },
+  {
+    "feedback_id": 6,
+    "feedback_code": "FB-000006-0013",
+    "interview_id": 6,
+    "interviewer_id": 13,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 13:00:00"
+  },
+  {
+    "feedback_id": 7,
+    "feedback_code": "FB-000010-0011",
+    "interview_id": 10,
+    "interviewer_id": 11,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 13:00:00"
+  },
+  {
+    "feedback_id": 8,
+    "feedback_code": "FB-000010-0015",
+    "interview_id": 10,
+    "interviewer_id": 15,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 13:00:00"
+  },
+  {
+    "feedback_id": 9,
+    "feedback_code": "FB-000014-0050",
+    "interview_id": 14,
+    "interviewer_id": 50,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 10,
+    "feedback_code": "FB-000014-0029",
+    "interview_id": 14,
+    "interviewer_id": 29,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 11,
+    "feedback_code": "FB-000024-0031",
+    "interview_id": 24,
+    "interviewer_id": 31,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 11:00:00"
+  },
+  {
+    "feedback_id": 12,
+    "feedback_code": "FB-000024-0049",
+    "interview_id": 24,
+    "interviewer_id": 49,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 11:00:00"
+  },
+  {
+    "feedback_id": 13,
+    "feedback_code": "FB-000025-0030",
+    "interview_id": 25,
+    "interviewer_id": 30,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-27 16:00:00"
+  },
+  {
+    "feedback_id": 14,
+    "feedback_code": "FB-000025-0033",
+    "interview_id": 25,
+    "interviewer_id": 33,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-27 16:00:00"
+  },
+  {
+    "feedback_id": 15,
+    "feedback_code": "FB-000027-0010",
+    "interview_id": 27,
+    "interviewer_id": 10,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 16:00:00"
+  },
+  {
+    "feedback_id": 16,
+    "feedback_code": "FB-000027-0025",
+    "interview_id": 27,
+    "interviewer_id": 25,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 16:00:00"
+  },
+  {
+    "feedback_id": 17,
+    "feedback_code": "FB-000030-0029",
+    "interview_id": 30,
+    "interviewer_id": 29,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 12:00:00"
+  },
+  {
+    "feedback_id": 18,
+    "feedback_code": "FB-000030-0003",
+    "interview_id": 30,
+    "interviewer_id": 3,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 12:00:00"
+  },
+  {
+    "feedback_id": 19,
+    "feedback_code": "FB-000032-0030",
+    "interview_id": 32,
+    "interviewer_id": 30,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 11:00:00"
+  },
+  {
+    "feedback_id": 20,
+    "feedback_code": "FB-000032-0010",
+    "interview_id": 32,
+    "interviewer_id": 10,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 11:00:00"
+  },
+  {
+    "feedback_id": 21,
+    "feedback_code": "FB-000033-0002",
+    "interview_id": 33,
+    "interviewer_id": 2,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 16:00:00"
+  },
+  {
+    "feedback_id": 22,
+    "feedback_code": "FB-000033-0007",
+    "interview_id": 33,
+    "interviewer_id": 7,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 16:00:00"
+  },
+  {
+    "feedback_id": 23,
+    "feedback_code": "FB-000038-0013",
+    "interview_id": 38,
+    "interviewer_id": 13,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 24,
+    "feedback_code": "FB-000038-0014",
+    "interview_id": 38,
+    "interviewer_id": 14,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 25,
+    "feedback_code": "FB-000039-0038",
+    "interview_id": 39,
+    "interviewer_id": 38,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 16:00:00"
+  },
+  {
+    "feedback_id": 26,
+    "feedback_code": "FB-000039-0004",
+    "interview_id": 39,
+    "interviewer_id": 4,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 16:00:00"
+  },
+  {
+    "feedback_id": 27,
+    "feedback_code": "FB-000040-0023",
+    "interview_id": 40,
+    "interviewer_id": 23,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 12:00:00"
+  },
+  {
+    "feedback_id": 28,
+    "feedback_code": "FB-000040-0026",
+    "interview_id": 40,
+    "interviewer_id": 26,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 12:00:00"
+  },
+  {
+    "feedback_id": 29,
+    "feedback_code": "FB-000041-0006",
+    "interview_id": 41,
+    "interviewer_id": 6,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 13:00:00"
+  },
+  {
+    "feedback_id": 30,
+    "feedback_code": "FB-000041-0024",
+    "interview_id": 41,
+    "interviewer_id": 24,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 13:00:00"
+  },
+  {
+    "feedback_id": 31,
+    "feedback_code": "FB-000045-0021",
+    "interview_id": 45,
+    "interviewer_id": 21,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 12:00:00"
+  },
+  {
+    "feedback_id": 32,
+    "feedback_code": "FB-000045-0033",
+    "interview_id": 45,
+    "interviewer_id": 33,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 12:00:00"
+  },
+  {
+    "feedback_id": 33,
+    "feedback_code": "FB-000046-0030",
+    "interview_id": 46,
+    "interviewer_id": 30,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 11:00:00"
+  },
+  {
+    "feedback_id": 34,
+    "feedback_code": "FB-000046-0018",
+    "interview_id": 46,
+    "interviewer_id": 18,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 11:00:00"
+  },
+  {
+    "feedback_id": 35,
+    "feedback_code": "FB-000048-0032",
+    "interview_id": 48,
+    "interviewer_id": 32,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 13:00:00"
+  },
+  {
+    "feedback_id": 36,
+    "feedback_code": "FB-000048-0009",
+    "interview_id": 48,
+    "interviewer_id": 9,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 13:00:00"
+  },
+  {
+    "feedback_id": 37,
+    "feedback_code": "FB-000049-0013",
+    "interview_id": 49,
+    "interviewer_id": 13,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 13:00:00"
+  },
+  {
+    "feedback_id": 38,
+    "feedback_code": "FB-000049-0034",
+    "interview_id": 49,
+    "interviewer_id": 34,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 13:00:00"
+  },
+  {
+    "feedback_id": 39,
+    "feedback_code": "FB-000051-0042",
+    "interview_id": 51,
+    "interviewer_id": 42,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 13:00:00"
+  },
+  {
+    "feedback_id": 40,
+    "feedback_code": "FB-000051-0004",
+    "interview_id": 51,
+    "interviewer_id": 4,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 13:00:00"
+  },
+  {
+    "feedback_id": 41,
+    "feedback_code": "FB-000053-0048",
+    "interview_id": 53,
+    "interviewer_id": 48,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 12:00:00"
+  },
+  {
+    "feedback_id": 42,
+    "feedback_code": "FB-000053-0003",
+    "interview_id": 53,
+    "interviewer_id": 3,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 12:00:00"
+  },
+  {
+    "feedback_id": 43,
+    "feedback_code": "FB-000054-0033",
+    "interview_id": 54,
+    "interviewer_id": 33,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 16:00:00"
+  },
+  {
+    "feedback_id": 44,
+    "feedback_code": "FB-000054-0023",
+    "interview_id": 54,
+    "interviewer_id": 23,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 16:00:00"
+  },
+  {
+    "feedback_id": 45,
+    "feedback_code": "FB-000057-0040",
+    "interview_id": 57,
+    "interviewer_id": 40,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-23 13:00:00"
+  },
+  {
+    "feedback_id": 46,
+    "feedback_code": "FB-000057-0043",
+    "interview_id": 57,
+    "interviewer_id": 43,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-23 13:00:00"
+  },
+  {
+    "feedback_id": 47,
+    "feedback_code": "FB-000075-0011",
+    "interview_id": 75,
+    "interviewer_id": 11,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 11:00:00"
+  },
+  {
+    "feedback_id": 48,
+    "feedback_code": "FB-000075-0026",
+    "interview_id": 75,
+    "interviewer_id": 26,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 11:00:00"
+  },
+  {
+    "feedback_id": 49,
+    "feedback_code": "FB-000078-0001",
+    "interview_id": 78,
+    "interviewer_id": 1,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 12:00:00"
+  },
+  {
+    "feedback_id": 50,
+    "feedback_code": "FB-000078-0039",
+    "interview_id": 78,
+    "interviewer_id": 39,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 12:00:00"
+  },
+  {
+    "feedback_id": 51,
+    "feedback_code": "FB-000080-0033",
+    "interview_id": 80,
+    "interviewer_id": 33,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 52,
+    "feedback_code": "FB-000080-0008",
+    "interview_id": 80,
+    "interviewer_id": 8,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 53,
+    "feedback_code": "FB-000082-0022",
+    "interview_id": 82,
+    "interviewer_id": 22,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 54,
+    "feedback_code": "FB-000082-0010",
+    "interview_id": 82,
+    "interviewer_id": 10,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 55,
+    "feedback_code": "FB-000091-0020",
+    "interview_id": 91,
+    "interviewer_id": 20,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 12:00:00"
+  },
+  {
+    "feedback_id": 56,
+    "feedback_code": "FB-000091-0038",
+    "interview_id": 91,
+    "interviewer_id": 38,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 12:00:00"
+  },
+  {
+    "feedback_id": 57,
+    "feedback_code": "FB-000092-0027",
+    "interview_id": 92,
+    "interviewer_id": 27,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 12:00:00"
+  },
+  {
+    "feedback_id": 58,
+    "feedback_code": "FB-000092-0014",
+    "interview_id": 92,
+    "interviewer_id": 14,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 12:00:00"
+  },
+  {
+    "feedback_id": 59,
+    "feedback_code": "FB-000095-0021",
+    "interview_id": 95,
+    "interviewer_id": 21,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 13:00:00"
+  },
+  {
+    "feedback_id": 60,
+    "feedback_code": "FB-000095-0012",
+    "interview_id": 95,
+    "interviewer_id": 12,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 13:00:00"
+  },
+  {
+    "feedback_id": 61,
+    "feedback_code": "FB-000096-0019",
+    "interview_id": 96,
+    "interviewer_id": 19,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 13:00:00"
+  },
+  {
+    "feedback_id": 62,
+    "feedback_code": "FB-000096-0024",
+    "interview_id": 96,
+    "interviewer_id": 24,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 13:00:00"
+  },
+  {
+    "feedback_id": 63,
+    "feedback_code": "FB-000099-0033",
+    "interview_id": 99,
+    "interviewer_id": 33,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 13:00:00"
+  },
+  {
+    "feedback_id": 64,
+    "feedback_code": "FB-000099-0035",
+    "interview_id": 99,
+    "interviewer_id": 35,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 13:00:00"
+  },
+  {
+    "feedback_id": 65,
+    "feedback_code": "FB-000100-0017",
+    "interview_id": 100,
+    "interviewer_id": 17,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 16:00:00"
+  },
+  {
+    "feedback_id": 66,
+    "feedback_code": "FB-000100-0018",
+    "interview_id": 100,
+    "interviewer_id": 18,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 16:00:00"
+  },
+  {
+    "feedback_id": 67,
+    "feedback_code": "FB-000102-0031",
+    "interview_id": 102,
+    "interviewer_id": 31,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-12 11:00:00"
+  },
+  {
+    "feedback_id": 68,
+    "feedback_code": "FB-000102-0040",
+    "interview_id": 102,
+    "interviewer_id": 40,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-12 11:00:00"
+  },
+  {
+    "feedback_id": 69,
+    "feedback_code": "FB-000105-0040",
+    "interview_id": 105,
+    "interviewer_id": 40,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 70,
+    "feedback_code": "FB-000105-0016",
+    "interview_id": 105,
+    "interviewer_id": 16,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 71,
+    "feedback_code": "FB-000106-0012",
+    "interview_id": 106,
+    "interviewer_id": 12,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 11:00:00"
+  },
+  {
+    "feedback_id": 72,
+    "feedback_code": "FB-000106-0031",
+    "interview_id": 106,
+    "interviewer_id": 31,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 11:00:00"
+  },
+  {
+    "feedback_id": 73,
+    "feedback_code": "FB-000108-0004",
+    "interview_id": 108,
+    "interviewer_id": 4,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 74,
+    "feedback_code": "FB-000108-0003",
+    "interview_id": 108,
+    "interviewer_id": 3,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 75,
+    "feedback_code": "FB-000112-0042",
+    "interview_id": 112,
+    "interviewer_id": 42,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 13:00:00"
+  },
+  {
+    "feedback_id": 76,
+    "feedback_code": "FB-000112-0018",
+    "interview_id": 112,
+    "interviewer_id": 18,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 13:00:00"
+  },
+  {
+    "feedback_id": 77,
+    "feedback_code": "FB-000114-0044",
+    "interview_id": 114,
+    "interviewer_id": 44,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 13:00:00"
+  },
+  {
+    "feedback_id": 78,
+    "feedback_code": "FB-000114-0012",
+    "interview_id": 114,
+    "interviewer_id": 12,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 13:00:00"
+  },
+  {
+    "feedback_id": 79,
+    "feedback_code": "FB-000116-0020",
+    "interview_id": 116,
+    "interviewer_id": 20,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-02 12:00:00"
+  },
+  {
+    "feedback_id": 80,
+    "feedback_code": "FB-000116-0010",
+    "interview_id": 116,
+    "interviewer_id": 10,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-02 12:00:00"
+  },
+  {
+    "feedback_id": 81,
+    "feedback_code": "FB-000123-0028",
+    "interview_id": 123,
+    "interviewer_id": 28,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 12:00:00"
+  },
+  {
+    "feedback_id": 82,
+    "feedback_code": "FB-000123-0004",
+    "interview_id": 123,
+    "interviewer_id": 4,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 12:00:00"
+  },
+  {
+    "feedback_id": 83,
+    "feedback_code": "FB-000130-0027",
+    "interview_id": 130,
+    "interviewer_id": 27,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 12:00:00"
+  },
+  {
+    "feedback_id": 84,
+    "feedback_code": "FB-000130-0037",
+    "interview_id": 130,
+    "interviewer_id": 37,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 12:00:00"
+  },
+  {
+    "feedback_id": 85,
+    "feedback_code": "FB-000131-0044",
+    "interview_id": 131,
+    "interviewer_id": 44,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 12:00:00"
+  },
+  {
+    "feedback_id": 86,
+    "feedback_code": "FB-000131-0016",
+    "interview_id": 131,
+    "interviewer_id": 16,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 12:00:00"
+  },
+  {
+    "feedback_id": 87,
+    "feedback_code": "FB-000132-0037",
+    "interview_id": 132,
+    "interviewer_id": 37,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 12:00:00"
+  },
+  {
+    "feedback_id": 88,
+    "feedback_code": "FB-000132-0010",
+    "interview_id": 132,
+    "interviewer_id": 10,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 12:00:00"
+  },
+  {
+    "feedback_id": 89,
+    "feedback_code": "FB-000135-0004",
+    "interview_id": 135,
+    "interviewer_id": 4,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 13:00:00"
+  },
+  {
+    "feedback_id": 90,
+    "feedback_code": "FB-000135-0034",
+    "interview_id": 135,
+    "interviewer_id": 34,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 13:00:00"
+  },
+  {
+    "feedback_id": 91,
+    "feedback_code": "FB-000136-0032",
+    "interview_id": 136,
+    "interviewer_id": 32,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 16:00:00"
+  },
+  {
+    "feedback_id": 92,
+    "feedback_code": "FB-000136-0018",
+    "interview_id": 136,
+    "interviewer_id": 18,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 16:00:00"
+  },
+  {
+    "feedback_id": 93,
+    "feedback_code": "FB-000140-0012",
+    "interview_id": 140,
+    "interviewer_id": 12,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 13:00:00"
+  },
+  {
+    "feedback_id": 94,
+    "feedback_code": "FB-000140-0048",
+    "interview_id": 140,
+    "interviewer_id": 48,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 13:00:00"
+  },
+  {
+    "feedback_id": 95,
+    "feedback_code": "FB-000141-0025",
+    "interview_id": 141,
+    "interviewer_id": 25,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 16:00:00"
+  },
+  {
+    "feedback_id": 96,
+    "feedback_code": "FB-000141-0004",
+    "interview_id": 141,
+    "interviewer_id": 4,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 16:00:00"
+  },
+  {
+    "feedback_id": 97,
+    "feedback_code": "FB-000142-0007",
+    "interview_id": 142,
+    "interviewer_id": 7,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-04 16:00:00"
+  },
+  {
+    "feedback_id": 98,
+    "feedback_code": "FB-000142-0026",
+    "interview_id": 142,
+    "interviewer_id": 26,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-04 16:00:00"
+  },
+  {
+    "feedback_id": 99,
+    "feedback_code": "FB-000143-0035",
+    "interview_id": 143,
+    "interviewer_id": 35,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 12:00:00"
+  },
+  {
+    "feedback_id": 100,
+    "feedback_code": "FB-000143-0028",
+    "interview_id": 143,
+    "interviewer_id": 28,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 12:00:00"
+  },
+  {
+    "feedback_id": 101,
+    "feedback_code": "FB-000144-0019",
+    "interview_id": 144,
+    "interviewer_id": 19,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 102,
+    "feedback_code": "FB-000144-0018",
+    "interview_id": 144,
+    "interviewer_id": 18,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 103,
+    "feedback_code": "FB-000145-0048",
+    "interview_id": 145,
+    "interviewer_id": 48,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 11:00:00"
+  },
+  {
+    "feedback_id": 104,
+    "feedback_code": "FB-000145-0019",
+    "interview_id": 145,
+    "interviewer_id": 19,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 11:00:00"
+  },
+  {
+    "feedback_id": 105,
+    "feedback_code": "FB-000146-0009",
+    "interview_id": 146,
+    "interviewer_id": 9,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 13:00:00"
+  },
+  {
+    "feedback_id": 106,
+    "feedback_code": "FB-000146-0021",
+    "interview_id": 146,
+    "interviewer_id": 21,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 13:00:00"
+  },
+  {
+    "feedback_id": 107,
+    "feedback_code": "FB-000148-0005",
+    "interview_id": 148,
+    "interviewer_id": 5,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 12:00:00"
+  },
+  {
+    "feedback_id": 108,
+    "feedback_code": "FB-000148-0027",
+    "interview_id": 148,
+    "interviewer_id": 27,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 12:00:00"
+  },
+  {
+    "feedback_id": 109,
+    "feedback_code": "FB-000154-0018",
+    "interview_id": 154,
+    "interviewer_id": 18,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 13:00:00"
+  },
+  {
+    "feedback_id": 110,
+    "feedback_code": "FB-000154-0042",
+    "interview_id": 154,
+    "interviewer_id": 42,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 13:00:00"
+  },
+  {
+    "feedback_id": 111,
+    "feedback_code": "FB-000157-0018",
+    "interview_id": 157,
+    "interviewer_id": 18,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 11:00:00"
+  },
+  {
+    "feedback_id": 112,
+    "feedback_code": "FB-000157-0039",
+    "interview_id": 157,
+    "interviewer_id": 39,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 11:00:00"
+  },
+  {
+    "feedback_id": 113,
+    "feedback_code": "FB-000158-0046",
+    "interview_id": 158,
+    "interviewer_id": 46,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 13:00:00"
+  },
+  {
+    "feedback_id": 114,
+    "feedback_code": "FB-000158-0008",
+    "interview_id": 158,
+    "interviewer_id": 8,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 13:00:00"
+  },
+  {
+    "feedback_id": 115,
+    "feedback_code": "FB-000162-0017",
+    "interview_id": 162,
+    "interviewer_id": 17,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 12:00:00"
+  },
+  {
+    "feedback_id": 116,
+    "feedback_code": "FB-000162-0032",
+    "interview_id": 162,
+    "interviewer_id": 32,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 12:00:00"
+  },
+  {
+    "feedback_id": 117,
+    "feedback_code": "FB-000165-0004",
+    "interview_id": 165,
+    "interviewer_id": 4,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-04 13:00:00"
+  },
+  {
+    "feedback_id": 118,
+    "feedback_code": "FB-000165-0009",
+    "interview_id": 165,
+    "interviewer_id": 9,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-04 13:00:00"
+  },
+  {
+    "feedback_id": 119,
+    "feedback_code": "FB-000168-0003",
+    "interview_id": 168,
+    "interviewer_id": 3,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-27 12:00:00"
+  },
+  {
+    "feedback_id": 120,
+    "feedback_code": "FB-000168-0043",
+    "interview_id": 168,
+    "interviewer_id": 43,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-27 12:00:00"
+  },
+  {
+    "feedback_id": 121,
+    "feedback_code": "FB-000170-0038",
+    "interview_id": 170,
+    "interviewer_id": 38,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 16:00:00"
+  },
+  {
+    "feedback_id": 122,
+    "feedback_code": "FB-000170-0021",
+    "interview_id": 170,
+    "interviewer_id": 21,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 16:00:00"
+  },
+  {
+    "feedback_id": 123,
+    "feedback_code": "FB-000181-0048",
+    "interview_id": 181,
+    "interviewer_id": 48,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 12:00:00"
+  },
+  {
+    "feedback_id": 124,
+    "feedback_code": "FB-000181-0040",
+    "interview_id": 181,
+    "interviewer_id": 40,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 12:00:00"
+  },
+  {
+    "feedback_id": 125,
+    "feedback_code": "FB-000184-0040",
+    "interview_id": 184,
+    "interviewer_id": 40,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 16:00:00"
+  },
+  {
+    "feedback_id": 126,
+    "feedback_code": "FB-000184-0048",
+    "interview_id": 184,
+    "interviewer_id": 48,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 16:00:00"
+  },
+  {
+    "feedback_id": 127,
+    "feedback_code": "FB-000186-0021",
+    "interview_id": 186,
+    "interviewer_id": 21,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 16:00:00"
+  },
+  {
+    "feedback_id": 128,
+    "feedback_code": "FB-000186-0048",
+    "interview_id": 186,
+    "interviewer_id": 48,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 16:00:00"
+  },
+  {
+    "feedback_id": 129,
+    "feedback_code": "FB-000188-0018",
+    "interview_id": 188,
+    "interviewer_id": 18,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 11:00:00"
+  },
+  {
+    "feedback_id": 130,
+    "feedback_code": "FB-000188-0015",
+    "interview_id": 188,
+    "interviewer_id": 15,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 11:00:00"
+  },
+  {
+    "feedback_id": 131,
+    "feedback_code": "FB-000192-0017",
+    "interview_id": 192,
+    "interviewer_id": 17,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 132,
+    "feedback_code": "FB-000192-0026",
+    "interview_id": 192,
+    "interviewer_id": 26,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 133,
+    "feedback_code": "FB-000193-0044",
+    "interview_id": 193,
+    "interviewer_id": 44,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-02 11:00:00"
+  },
+  {
+    "feedback_id": 134,
+    "feedback_code": "FB-000193-0003",
+    "interview_id": 193,
+    "interviewer_id": 3,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-02 11:00:00"
+  },
+  {
+    "feedback_id": 135,
+    "feedback_code": "FB-000196-0008",
+    "interview_id": 196,
+    "interviewer_id": 8,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 13:00:00"
+  },
+  {
+    "feedback_id": 136,
+    "feedback_code": "FB-000196-0036",
+    "interview_id": 196,
+    "interviewer_id": 36,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 13:00:00"
+  },
+  {
+    "feedback_id": 137,
+    "feedback_code": "FB-000197-0002",
+    "interview_id": 197,
+    "interviewer_id": 2,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 11:00:00"
+  },
+  {
+    "feedback_id": 138,
+    "feedback_code": "FB-000197-0007",
+    "interview_id": 197,
+    "interviewer_id": 7,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 11:00:00"
+  },
+  {
+    "feedback_id": 139,
+    "feedback_code": "FB-000200-0026",
+    "interview_id": 200,
+    "interviewer_id": 26,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 11:00:00"
+  },
+  {
+    "feedback_id": 140,
+    "feedback_code": "FB-000200-0013",
+    "interview_id": 200,
+    "interviewer_id": 13,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 11:00:00"
+  },
+  {
+    "feedback_id": 141,
+    "feedback_code": "FB-000201-0008",
+    "interview_id": 201,
+    "interviewer_id": 8,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-12 13:00:00"
+  },
+  {
+    "feedback_id": 142,
+    "feedback_code": "FB-000201-0023",
+    "interview_id": 201,
+    "interviewer_id": 23,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-12 13:00:00"
+  },
+  {
+    "feedback_id": 143,
+    "feedback_code": "FB-000203-0039",
+    "interview_id": 203,
+    "interviewer_id": 39,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 13:00:00"
+  },
+  {
+    "feedback_id": 144,
+    "feedback_code": "FB-000203-0021",
+    "interview_id": 203,
+    "interviewer_id": 21,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 13:00:00"
+  },
+  {
+    "feedback_id": 145,
+    "feedback_code": "FB-000205-0042",
+    "interview_id": 205,
+    "interviewer_id": 42,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 11:00:00"
+  },
+  {
+    "feedback_id": 146,
+    "feedback_code": "FB-000205-0027",
+    "interview_id": 205,
+    "interviewer_id": 27,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 11:00:00"
+  },
+  {
+    "feedback_id": 147,
+    "feedback_code": "FB-000213-0014",
+    "interview_id": 213,
+    "interviewer_id": 14,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 12:00:00"
+  },
+  {
+    "feedback_id": 148,
+    "feedback_code": "FB-000213-0019",
+    "interview_id": 213,
+    "interviewer_id": 19,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 12:00:00"
+  },
+  {
+    "feedback_id": 149,
+    "feedback_code": "FB-000215-0004",
+    "interview_id": 215,
+    "interviewer_id": 4,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 16:00:00"
+  },
+  {
+    "feedback_id": 150,
+    "feedback_code": "FB-000215-0022",
+    "interview_id": 215,
+    "interviewer_id": 22,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 16:00:00"
+  },
+  {
+    "feedback_id": 151,
+    "feedback_code": "FB-000228-0041",
+    "interview_id": 228,
+    "interviewer_id": 41,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-12 16:00:00"
+  },
+  {
+    "feedback_id": 152,
+    "feedback_code": "FB-000228-0042",
+    "interview_id": 228,
+    "interviewer_id": 42,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-12 16:00:00"
+  },
+  {
+    "feedback_id": 153,
+    "feedback_code": "FB-000233-0025",
+    "interview_id": 233,
+    "interviewer_id": 25,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 12:00:00"
+  },
+  {
+    "feedback_id": 154,
+    "feedback_code": "FB-000233-0016",
+    "interview_id": 233,
+    "interviewer_id": 16,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 12:00:00"
+  },
+  {
+    "feedback_id": 155,
+    "feedback_code": "FB-000236-0039",
+    "interview_id": 236,
+    "interviewer_id": 39,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 13:00:00"
+  },
+  {
+    "feedback_id": 156,
+    "feedback_code": "FB-000236-0018",
+    "interview_id": 236,
+    "interviewer_id": 18,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 13:00:00"
+  },
+  {
+    "feedback_id": 157,
+    "feedback_code": "FB-000241-0035",
+    "interview_id": 241,
+    "interviewer_id": 35,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 13:00:00"
+  },
+  {
+    "feedback_id": 158,
+    "feedback_code": "FB-000241-0003",
+    "interview_id": 241,
+    "interviewer_id": 3,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 13:00:00"
+  },
+  {
+    "feedback_id": 159,
+    "feedback_code": "FB-000249-0024",
+    "interview_id": 249,
+    "interviewer_id": 24,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 13:00:00"
+  },
+  {
+    "feedback_id": 160,
+    "feedback_code": "FB-000249-0004",
+    "interview_id": 249,
+    "interviewer_id": 4,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 13:00:00"
+  },
+  {
+    "feedback_id": 161,
+    "feedback_code": "FB-000254-0033",
+    "interview_id": 254,
+    "interviewer_id": 33,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 11:00:00"
+  },
+  {
+    "feedback_id": 162,
+    "feedback_code": "FB-000254-0024",
+    "interview_id": 254,
+    "interviewer_id": 24,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 11:00:00"
+  },
+  {
+    "feedback_id": 163,
+    "feedback_code": "FB-000255-0020",
+    "interview_id": 255,
+    "interviewer_id": 20,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 164,
+    "feedback_code": "FB-000255-0030",
+    "interview_id": 255,
+    "interviewer_id": 30,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 165,
+    "feedback_code": "FB-000257-0044",
+    "interview_id": 257,
+    "interviewer_id": 44,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 13:00:00"
+  },
+  {
+    "feedback_id": 166,
+    "feedback_code": "FB-000257-0047",
+    "interview_id": 257,
+    "interviewer_id": 47,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 13:00:00"
+  },
+  {
+    "feedback_id": 167,
+    "feedback_code": "FB-000263-0013",
+    "interview_id": 263,
+    "interviewer_id": 13,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 16:00:00"
+  },
+  {
+    "feedback_id": 168,
+    "feedback_code": "FB-000263-0012",
+    "interview_id": 263,
+    "interviewer_id": 12,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 16:00:00"
+  },
+  {
+    "feedback_id": 169,
+    "feedback_code": "FB-000265-0014",
+    "interview_id": 265,
+    "interviewer_id": 14,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 11:00:00"
+  },
+  {
+    "feedback_id": 170,
+    "feedback_code": "FB-000265-0031",
+    "interview_id": 265,
+    "interviewer_id": 31,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 11:00:00"
+  },
+  {
+    "feedback_id": 171,
+    "feedback_code": "FB-000268-0037",
+    "interview_id": 268,
+    "interviewer_id": 37,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 11:00:00"
+  },
+  {
+    "feedback_id": 172,
+    "feedback_code": "FB-000268-0027",
+    "interview_id": 268,
+    "interviewer_id": 27,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 11:00:00"
+  },
+  {
+    "feedback_id": 173,
+    "feedback_code": "FB-000272-0007",
+    "interview_id": 272,
+    "interviewer_id": 7,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 12:00:00"
+  },
+  {
+    "feedback_id": 174,
+    "feedback_code": "FB-000272-0047",
+    "interview_id": 272,
+    "interviewer_id": 47,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 12:00:00"
+  },
+  {
+    "feedback_id": 175,
+    "feedback_code": "FB-000277-0016",
+    "interview_id": 277,
+    "interviewer_id": 16,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 11:00:00"
+  },
+  {
+    "feedback_id": 176,
+    "feedback_code": "FB-000277-0018",
+    "interview_id": 277,
+    "interviewer_id": 18,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 11:00:00"
+  },
+  {
+    "feedback_id": 177,
+    "feedback_code": "FB-000294-0034",
+    "interview_id": 294,
+    "interviewer_id": 34,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 16:00:00"
+  },
+  {
+    "feedback_id": 178,
+    "feedback_code": "FB-000294-0039",
+    "interview_id": 294,
+    "interviewer_id": 39,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 16:00:00"
+  },
+  {
+    "feedback_id": 179,
+    "feedback_code": "FB-000297-0043",
+    "interview_id": 297,
+    "interviewer_id": 43,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 11:00:00"
+  },
+  {
+    "feedback_id": 180,
+    "feedback_code": "FB-000297-0014",
+    "interview_id": 297,
+    "interviewer_id": 14,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 11:00:00"
+  },
+  {
+    "feedback_id": 181,
+    "feedback_code": "FB-000298-0029",
+    "interview_id": 298,
+    "interviewer_id": 29,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 11:00:00"
+  },
+  {
+    "feedback_id": 182,
+    "feedback_code": "FB-000298-0040",
+    "interview_id": 298,
+    "interviewer_id": 40,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 11:00:00"
+  },
+  {
+    "feedback_id": 183,
+    "feedback_code": "FB-000300-0027",
+    "interview_id": 300,
+    "interviewer_id": 27,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 16:00:00"
+  },
+  {
+    "feedback_id": 184,
+    "feedback_code": "FB-000300-0032",
+    "interview_id": 300,
+    "interviewer_id": 32,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 16:00:00"
+  },
+  {
+    "feedback_id": 185,
+    "feedback_code": "FB-000301-0030",
+    "interview_id": 301,
+    "interviewer_id": 30,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 12:00:00"
+  },
+  {
+    "feedback_id": 186,
+    "feedback_code": "FB-000301-0047",
+    "interview_id": 301,
+    "interviewer_id": 47,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 12:00:00"
+  },
+  {
+    "feedback_id": 187,
+    "feedback_code": "FB-000305-0013",
+    "interview_id": 305,
+    "interviewer_id": 13,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 188,
+    "feedback_code": "FB-000305-0036",
+    "interview_id": 305,
+    "interviewer_id": 36,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 189,
+    "feedback_code": "FB-000310-0045",
+    "interview_id": 310,
+    "interviewer_id": 45,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 11:00:00"
+  },
+  {
+    "feedback_id": 190,
+    "feedback_code": "FB-000310-0019",
+    "interview_id": 310,
+    "interviewer_id": 19,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 11:00:00"
+  },
+  {
+    "feedback_id": 191,
+    "feedback_code": "FB-000311-0031",
+    "interview_id": 311,
+    "interviewer_id": 31,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 192,
+    "feedback_code": "FB-000311-0041",
+    "interview_id": 311,
+    "interviewer_id": 41,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 193,
+    "feedback_code": "FB-000313-0047",
+    "interview_id": 313,
+    "interviewer_id": 47,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 12:00:00"
+  },
+  {
+    "feedback_id": 194,
+    "feedback_code": "FB-000313-0007",
+    "interview_id": 313,
+    "interviewer_id": 7,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 12:00:00"
+  },
+  {
+    "feedback_id": 195,
+    "feedback_code": "FB-000316-0031",
+    "interview_id": 316,
+    "interviewer_id": 31,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 16:00:00"
+  },
+  {
+    "feedback_id": 196,
+    "feedback_code": "FB-000316-0015",
+    "interview_id": 316,
+    "interviewer_id": 15,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 16:00:00"
+  },
+  {
+    "feedback_id": 197,
+    "feedback_code": "FB-000322-0012",
+    "interview_id": 322,
+    "interviewer_id": 12,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 11:00:00"
+  },
+  {
+    "feedback_id": 198,
+    "feedback_code": "FB-000322-0036",
+    "interview_id": 322,
+    "interviewer_id": 36,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 11:00:00"
+  },
+  {
+    "feedback_id": 199,
+    "feedback_code": "FB-000332-0017",
+    "interview_id": 332,
+    "interviewer_id": 17,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-04 16:00:00"
+  },
+  {
+    "feedback_id": 200,
+    "feedback_code": "FB-000332-0028",
+    "interview_id": 332,
+    "interviewer_id": 28,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-04 16:00:00"
+  },
+  {
+    "feedback_id": 201,
+    "feedback_code": "FB-000333-0050",
+    "interview_id": 333,
+    "interviewer_id": 50,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 12:00:00"
+  },
+  {
+    "feedback_id": 202,
+    "feedback_code": "FB-000333-0039",
+    "interview_id": 333,
+    "interviewer_id": 39,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 12:00:00"
+  },
+  {
+    "feedback_id": 203,
+    "feedback_code": "FB-000335-0020",
+    "interview_id": 335,
+    "interviewer_id": 20,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 12:00:00"
+  },
+  {
+    "feedback_id": 204,
+    "feedback_code": "FB-000335-0014",
+    "interview_id": 335,
+    "interviewer_id": 14,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 12:00:00"
+  },
+  {
+    "feedback_id": 205,
+    "feedback_code": "FB-000338-0026",
+    "interview_id": 338,
+    "interviewer_id": 26,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 12:00:00"
+  },
+  {
+    "feedback_id": 206,
+    "feedback_code": "FB-000338-0007",
+    "interview_id": 338,
+    "interviewer_id": 7,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 12:00:00"
+  },
+  {
+    "feedback_id": 207,
+    "feedback_code": "FB-000345-0021",
+    "interview_id": 345,
+    "interviewer_id": 21,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 208,
+    "feedback_code": "FB-000345-0001",
+    "interview_id": 345,
+    "interviewer_id": 1,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 209,
+    "feedback_code": "FB-000346-0046",
+    "interview_id": 346,
+    "interviewer_id": 46,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 11:00:00"
+  },
+  {
+    "feedback_id": 210,
+    "feedback_code": "FB-000346-0027",
+    "interview_id": 346,
+    "interviewer_id": 27,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 11:00:00"
+  },
+  {
+    "feedback_id": 211,
+    "feedback_code": "FB-000347-0008",
+    "interview_id": 347,
+    "interviewer_id": 8,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 11:00:00"
+  },
+  {
+    "feedback_id": 212,
+    "feedback_code": "FB-000347-0042",
+    "interview_id": 347,
+    "interviewer_id": 42,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 11:00:00"
+  },
+  {
+    "feedback_id": 213,
+    "feedback_code": "FB-000351-0013",
+    "interview_id": 351,
+    "interviewer_id": 13,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 16:00:00"
+  },
+  {
+    "feedback_id": 214,
+    "feedback_code": "FB-000351-0012",
+    "interview_id": 351,
+    "interviewer_id": 12,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 16:00:00"
+  },
+  {
+    "feedback_id": 215,
+    "feedback_code": "FB-000354-0035",
+    "interview_id": 354,
+    "interviewer_id": 35,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 12:00:00"
+  },
+  {
+    "feedback_id": 216,
+    "feedback_code": "FB-000354-0007",
+    "interview_id": 354,
+    "interviewer_id": 7,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 12:00:00"
+  },
+  {
+    "feedback_id": 217,
+    "feedback_code": "FB-000355-0021",
+    "interview_id": 355,
+    "interviewer_id": 21,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 13:00:00"
+  },
+  {
+    "feedback_id": 218,
+    "feedback_code": "FB-000355-0049",
+    "interview_id": 355,
+    "interviewer_id": 49,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 13:00:00"
+  },
+  {
+    "feedback_id": 219,
+    "feedback_code": "FB-000357-0002",
+    "interview_id": 357,
+    "interviewer_id": 2,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 16:00:00"
+  },
+  {
+    "feedback_id": 220,
+    "feedback_code": "FB-000357-0033",
+    "interview_id": 357,
+    "interviewer_id": 33,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 16:00:00"
+  },
+  {
+    "feedback_id": 221,
+    "feedback_code": "FB-000359-0014",
+    "interview_id": 359,
+    "interviewer_id": 14,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 11:00:00"
+  },
+  {
+    "feedback_id": 222,
+    "feedback_code": "FB-000359-0020",
+    "interview_id": 359,
+    "interviewer_id": 20,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 11:00:00"
+  },
+  {
+    "feedback_id": 223,
+    "feedback_code": "FB-000361-0031",
+    "interview_id": 361,
+    "interviewer_id": 31,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 16:00:00"
+  },
+  {
+    "feedback_id": 224,
+    "feedback_code": "FB-000361-0024",
+    "interview_id": 361,
+    "interviewer_id": 24,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 16:00:00"
+  },
+  {
+    "feedback_id": 225,
+    "feedback_code": "FB-000364-0027",
+    "interview_id": 364,
+    "interviewer_id": 27,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 11:00:00"
+  },
+  {
+    "feedback_id": 226,
+    "feedback_code": "FB-000364-0037",
+    "interview_id": 364,
+    "interviewer_id": 37,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 11:00:00"
+  },
+  {
+    "feedback_id": 227,
+    "feedback_code": "FB-000366-0038",
+    "interview_id": 366,
+    "interviewer_id": 38,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 13:00:00"
+  },
+  {
+    "feedback_id": 228,
+    "feedback_code": "FB-000366-0024",
+    "interview_id": 366,
+    "interviewer_id": 24,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 13:00:00"
+  },
+  {
+    "feedback_id": 229,
+    "feedback_code": "FB-000374-0047",
+    "interview_id": 374,
+    "interviewer_id": 47,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 230,
+    "feedback_code": "FB-000374-0016",
+    "interview_id": 374,
+    "interviewer_id": 16,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 13:00:00"
+  },
+  {
+    "feedback_id": 231,
+    "feedback_code": "FB-000375-0002",
+    "interview_id": 375,
+    "interviewer_id": 2,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 12:00:00"
+  },
+  {
+    "feedback_id": 232,
+    "feedback_code": "FB-000375-0015",
+    "interview_id": 375,
+    "interviewer_id": 15,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 12:00:00"
+  },
+  {
+    "feedback_id": 233,
+    "feedback_code": "FB-000376-0044",
+    "interview_id": 376,
+    "interviewer_id": 44,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 16:00:00"
+  },
+  {
+    "feedback_id": 234,
+    "feedback_code": "FB-000376-0011",
+    "interview_id": 376,
+    "interviewer_id": 11,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 16:00:00"
+  },
+  {
+    "feedback_id": 235,
+    "feedback_code": "FB-000378-0016",
+    "interview_id": 378,
+    "interviewer_id": 16,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 13:00:00"
+  },
+  {
+    "feedback_id": 236,
+    "feedback_code": "FB-000378-0047",
+    "interview_id": 378,
+    "interviewer_id": 47,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 13:00:00"
+  },
+  {
+    "feedback_id": 237,
+    "feedback_code": "FB-000386-0024",
+    "interview_id": 386,
+    "interviewer_id": 24,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 12:00:00"
+  },
+  {
+    "feedback_id": 238,
+    "feedback_code": "FB-000386-0029",
+    "interview_id": 386,
+    "interviewer_id": 29,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 12:00:00"
+  },
+  {
+    "feedback_id": 239,
+    "feedback_code": "FB-000388-0012",
+    "interview_id": 388,
+    "interviewer_id": 12,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 12:00:00"
+  },
+  {
+    "feedback_id": 240,
+    "feedback_code": "FB-000388-0028",
+    "interview_id": 388,
+    "interviewer_id": 28,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 12:00:00"
+  },
+  {
+    "feedback_id": 241,
+    "feedback_code": "FB-000389-0001",
+    "interview_id": 389,
+    "interviewer_id": 1,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 11:00:00"
+  },
+  {
+    "feedback_id": 242,
+    "feedback_code": "FB-000389-0040",
+    "interview_id": 389,
+    "interviewer_id": 40,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-28 11:00:00"
+  },
+  {
+    "feedback_id": 243,
+    "feedback_code": "FB-000390-0012",
+    "interview_id": 390,
+    "interviewer_id": 12,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 16:00:00"
+  },
+  {
+    "feedback_id": 244,
+    "feedback_code": "FB-000390-0030",
+    "interview_id": 390,
+    "interviewer_id": 30,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 16:00:00"
+  },
+  {
+    "feedback_id": 245,
+    "feedback_code": "FB-000394-0041",
+    "interview_id": 394,
+    "interviewer_id": 41,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 246,
+    "feedback_code": "FB-000394-0025",
+    "interview_id": 394,
+    "interviewer_id": 25,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 247,
+    "feedback_code": "FB-000395-0016",
+    "interview_id": 395,
+    "interviewer_id": 16,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 16:00:00"
+  },
+  {
+    "feedback_id": 248,
+    "feedback_code": "FB-000395-0030",
+    "interview_id": 395,
+    "interviewer_id": 30,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 16:00:00"
+  },
+  {
+    "feedback_id": 249,
+    "feedback_code": "FB-000397-0034",
+    "interview_id": 397,
+    "interviewer_id": 34,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-23 13:00:00"
+  },
+  {
+    "feedback_id": 250,
+    "feedback_code": "FB-000397-0049",
+    "interview_id": 397,
+    "interviewer_id": 49,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-23 13:00:00"
+  },
+  {
+    "feedback_id": 251,
+    "feedback_code": "FB-000399-0050",
+    "interview_id": 399,
+    "interviewer_id": 50,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 12:00:00"
+  },
+  {
+    "feedback_id": 252,
+    "feedback_code": "FB-000399-0048",
+    "interview_id": 399,
+    "interviewer_id": 48,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 12:00:00"
+  },
+  {
+    "feedback_id": 253,
+    "feedback_code": "FB-000402-0015",
+    "interview_id": 402,
+    "interviewer_id": 15,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-02 12:00:00"
+  },
+  {
+    "feedback_id": 254,
+    "feedback_code": "FB-000402-0024",
+    "interview_id": 402,
+    "interviewer_id": 24,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-02 12:00:00"
+  },
+  {
+    "feedback_id": 255,
+    "feedback_code": "FB-000403-0035",
+    "interview_id": 403,
+    "interviewer_id": 35,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 12:00:00"
+  },
+  {
+    "feedback_id": 256,
+    "feedback_code": "FB-000403-0029",
+    "interview_id": 403,
+    "interviewer_id": 29,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 12:00:00"
+  },
+  {
+    "feedback_id": 257,
+    "feedback_code": "FB-000417-0048",
+    "interview_id": 417,
+    "interviewer_id": 48,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 13:00:00"
+  },
+  {
+    "feedback_id": 258,
+    "feedback_code": "FB-000417-0049",
+    "interview_id": 417,
+    "interviewer_id": 49,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-03 13:00:00"
+  },
+  {
+    "feedback_id": 259,
+    "feedback_code": "FB-000418-0047",
+    "interview_id": 418,
+    "interviewer_id": 47,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-23 13:00:00"
+  },
+  {
+    "feedback_id": 260,
+    "feedback_code": "FB-000418-0030",
+    "interview_id": 418,
+    "interviewer_id": 30,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-23 13:00:00"
+  },
+  {
+    "feedback_id": 261,
+    "feedback_code": "FB-000421-0046",
+    "interview_id": 421,
+    "interviewer_id": 46,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 11:00:00"
+  },
+  {
+    "feedback_id": 262,
+    "feedback_code": "FB-000421-0021",
+    "interview_id": 421,
+    "interviewer_id": 21,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 11:00:00"
+  },
+  {
+    "feedback_id": 263,
+    "feedback_code": "FB-000425-0036",
+    "interview_id": 425,
+    "interviewer_id": 36,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 264,
+    "feedback_code": "FB-000425-0013",
+    "interview_id": 425,
+    "interviewer_id": 13,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 265,
+    "feedback_code": "FB-000428-0021",
+    "interview_id": 428,
+    "interviewer_id": 21,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 266,
+    "feedback_code": "FB-000428-0046",
+    "interview_id": 428,
+    "interviewer_id": 46,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 267,
+    "feedback_code": "FB-000437-0050",
+    "interview_id": 437,
+    "interviewer_id": 50,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 12:00:00"
+  },
+  {
+    "feedback_id": 268,
+    "feedback_code": "FB-000437-0042",
+    "interview_id": 437,
+    "interviewer_id": 42,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 12:00:00"
+  },
+  {
+    "feedback_id": 269,
+    "feedback_code": "FB-000439-0047",
+    "interview_id": 439,
+    "interviewer_id": 47,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 12:00:00"
+  },
+  {
+    "feedback_id": 270,
+    "feedback_code": "FB-000439-0019",
+    "interview_id": 439,
+    "interviewer_id": 19,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-11 12:00:00"
+  },
+  {
+    "feedback_id": 271,
+    "feedback_code": "FB-000440-0043",
+    "interview_id": 440,
+    "interviewer_id": 43,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 12:00:00"
+  },
+  {
+    "feedback_id": 272,
+    "feedback_code": "FB-000440-0035",
+    "interview_id": 440,
+    "interviewer_id": 35,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-22 12:00:00"
+  },
+  {
+    "feedback_id": 273,
+    "feedback_code": "FB-000441-0045",
+    "interview_id": 441,
+    "interviewer_id": 45,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-02 13:00:00"
+  },
+  {
+    "feedback_id": 274,
+    "feedback_code": "FB-000441-0031",
+    "interview_id": 441,
+    "interviewer_id": 31,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-02 13:00:00"
+  },
+  {
+    "feedback_id": 275,
+    "feedback_code": "FB-000447-0006",
+    "interview_id": 447,
+    "interviewer_id": 6,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 16:00:00"
+  },
+  {
+    "feedback_id": 276,
+    "feedback_code": "FB-000447-0011",
+    "interview_id": 447,
+    "interviewer_id": 11,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 16:00:00"
+  },
+  {
+    "feedback_id": 277,
+    "feedback_code": "FB-000448-0028",
+    "interview_id": 448,
+    "interviewer_id": 28,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 11:00:00"
+  },
+  {
+    "feedback_id": 278,
+    "feedback_code": "FB-000448-0014",
+    "interview_id": 448,
+    "interviewer_id": 14,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-14 11:00:00"
+  },
+  {
+    "feedback_id": 279,
+    "feedback_code": "FB-000451-0050",
+    "interview_id": 451,
+    "interviewer_id": 50,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 12:00:00"
+  },
+  {
+    "feedback_id": 280,
+    "feedback_code": "FB-000451-0047",
+    "interview_id": 451,
+    "interviewer_id": 47,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 12:00:00"
+  },
+  {
+    "feedback_id": 281,
+    "feedback_code": "FB-000453-0050",
+    "interview_id": 453,
+    "interviewer_id": 50,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 11:00:00"
+  },
+  {
+    "feedback_id": 282,
+    "feedback_code": "FB-000453-0015",
+    "interview_id": 453,
+    "interviewer_id": 15,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 11:00:00"
+  },
+  {
+    "feedback_id": 283,
+    "feedback_code": "FB-000454-0048",
+    "interview_id": 454,
+    "interviewer_id": 48,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 12:00:00"
+  },
+  {
+    "feedback_id": 284,
+    "feedback_code": "FB-000454-0030",
+    "interview_id": 454,
+    "interviewer_id": 30,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 12:00:00"
+  },
+  {
+    "feedback_id": 285,
+    "feedback_code": "FB-000456-0042",
+    "interview_id": 456,
+    "interviewer_id": 42,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 13:00:00"
+  },
+  {
+    "feedback_id": 286,
+    "feedback_code": "FB-000456-0040",
+    "interview_id": 456,
+    "interviewer_id": 40,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 13:00:00"
+  },
+  {
+    "feedback_id": 287,
+    "feedback_code": "FB-000457-0012",
+    "interview_id": 457,
+    "interviewer_id": 12,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-01 12:00:00"
+  },
+  {
+    "feedback_id": 288,
+    "feedback_code": "FB-000457-0024",
+    "interview_id": 457,
+    "interviewer_id": 24,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-01 12:00:00"
+  },
+  {
+    "feedback_id": 289,
+    "feedback_code": "FB-000461-0039",
+    "interview_id": 461,
+    "interviewer_id": 39,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 12:00:00"
+  },
+  {
+    "feedback_id": 290,
+    "feedback_code": "FB-000461-0012",
+    "interview_id": 461,
+    "interviewer_id": 12,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 12:00:00"
+  },
+  {
+    "feedback_id": 291,
+    "feedback_code": "FB-000462-0050",
+    "interview_id": 462,
+    "interviewer_id": 50,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 16:00:00"
+  },
+  {
+    "feedback_id": 292,
+    "feedback_code": "FB-000462-0020",
+    "interview_id": 462,
+    "interviewer_id": 20,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 16:00:00"
+  },
+  {
+    "feedback_id": 293,
+    "feedback_code": "FB-000464-0041",
+    "interview_id": 464,
+    "interviewer_id": 41,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 12:00:00"
+  },
+  {
+    "feedback_id": 294,
+    "feedback_code": "FB-000464-0014",
+    "interview_id": 464,
+    "interviewer_id": 14,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 12:00:00"
+  },
+  {
+    "feedback_id": 295,
+    "feedback_code": "FB-000465-0010",
+    "interview_id": 465,
+    "interviewer_id": 10,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 16:00:00"
+  },
+  {
+    "feedback_id": 296,
+    "feedback_code": "FB-000465-0043",
+    "interview_id": 465,
+    "interviewer_id": 43,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 16:00:00"
+  },
+  {
+    "feedback_id": 297,
+    "feedback_code": "FB-000471-0019",
+    "interview_id": 471,
+    "interviewer_id": 19,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 16:00:00"
+  },
+  {
+    "feedback_id": 298,
+    "feedback_code": "FB-000471-0036",
+    "interview_id": 471,
+    "interviewer_id": 36,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 16:00:00"
+  },
+  {
+    "feedback_id": 299,
+    "feedback_code": "FB-000479-0014",
+    "interview_id": 479,
+    "interviewer_id": 14,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 13:00:00"
+  },
+  {
+    "feedback_id": 300,
+    "feedback_code": "FB-000479-0033",
+    "interview_id": 479,
+    "interviewer_id": 33,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-08 13:00:00"
+  },
+  {
+    "feedback_id": 301,
+    "feedback_code": "FB-000488-0030",
+    "interview_id": 488,
+    "interviewer_id": 30,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 302,
+    "feedback_code": "FB-000488-0048",
+    "interview_id": 488,
+    "interviewer_id": 48,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 16:00:00"
+  },
+  {
+    "feedback_id": 303,
+    "feedback_code": "FB-000490-0019",
+    "interview_id": 490,
+    "interviewer_id": 19,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-27 12:00:00"
+  },
+  {
+    "feedback_id": 304,
+    "feedback_code": "FB-000490-0002",
+    "interview_id": 490,
+    "interviewer_id": 2,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-27 12:00:00"
+  },
+  {
+    "feedback_id": 305,
+    "feedback_code": "FB-000494-0001",
+    "interview_id": 494,
+    "interviewer_id": 1,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 306,
+    "feedback_code": "FB-000494-0024",
+    "interview_id": 494,
+    "interviewer_id": 24,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-06 11:00:00"
+  },
+  {
+    "feedback_id": 307,
+    "feedback_code": "FB-000497-0029",
+    "interview_id": 497,
+    "interviewer_id": 29,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 16:00:00"
+  },
+  {
+    "feedback_id": 308,
+    "feedback_code": "FB-000497-0011",
+    "interview_id": 497,
+    "interviewer_id": 11,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 16:00:00"
+  },
+  {
+    "feedback_id": 309,
+    "feedback_code": "FB-000499-0029",
+    "interview_id": 499,
+    "interviewer_id": 29,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 12:00:00"
+  },
+  {
+    "feedback_id": 310,
+    "feedback_code": "FB-000499-0008",
+    "interview_id": 499,
+    "interviewer_id": 8,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 12:00:00"
+  },
+  {
+    "feedback_id": 311,
+    "feedback_code": "FB-000501-0005",
+    "interview_id": 501,
+    "interviewer_id": 5,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 11:00:00"
+  },
+  {
+    "feedback_id": 312,
+    "feedback_code": "FB-000501-0043",
+    "interview_id": 501,
+    "interviewer_id": 43,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 11:00:00"
+  },
+  {
+    "feedback_id": 313,
+    "feedback_code": "FB-000503-0039",
+    "interview_id": 503,
+    "interviewer_id": 39,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-27 11:00:00"
+  },
+  {
+    "feedback_id": 314,
+    "feedback_code": "FB-000503-0012",
+    "interview_id": 503,
+    "interviewer_id": 12,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-27 11:00:00"
+  },
+  {
+    "feedback_id": 315,
+    "feedback_code": "FB-000504-0022",
+    "interview_id": 504,
+    "interviewer_id": 22,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 13:00:00"
+  },
+  {
+    "feedback_id": 316,
+    "feedback_code": "FB-000504-0001",
+    "interview_id": 504,
+    "interviewer_id": 1,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-20 13:00:00"
+  },
+  {
+    "feedback_id": 317,
+    "feedback_code": "FB-000507-0038",
+    "interview_id": 507,
+    "interviewer_id": 38,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 13:00:00"
+  },
+  {
+    "feedback_id": 318,
+    "feedback_code": "FB-000507-0023",
+    "interview_id": 507,
+    "interviewer_id": 23,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-24 13:00:00"
+  },
+  {
+    "feedback_id": 319,
+    "feedback_code": "FB-000509-0002",
+    "interview_id": 509,
+    "interviewer_id": 2,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 16:00:00"
+  },
+  {
+    "feedback_id": 320,
+    "feedback_code": "FB-000509-0031",
+    "interview_id": 509,
+    "interviewer_id": 31,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 16:00:00"
+  },
+  {
+    "feedback_id": 321,
+    "feedback_code": "FB-000516-0021",
+    "interview_id": 516,
+    "interviewer_id": 21,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 322,
+    "feedback_code": "FB-000516-0044",
+    "interview_id": 516,
+    "interviewer_id": 44,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 323,
+    "feedback_code": "FB-000518-0002",
+    "interview_id": 518,
+    "interviewer_id": 2,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 13:00:00"
+  },
+  {
+    "feedback_id": 324,
+    "feedback_code": "FB-000518-0044",
+    "interview_id": 518,
+    "interviewer_id": 44,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 13:00:00"
+  },
+  {
+    "feedback_id": 325,
+    "feedback_code": "FB-000519-0019",
+    "interview_id": 519,
+    "interviewer_id": 19,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-01 11:00:00"
+  },
+  {
+    "feedback_id": 326,
+    "feedback_code": "FB-000519-0047",
+    "interview_id": 519,
+    "interviewer_id": 47,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-01 11:00:00"
+  },
+  {
+    "feedback_id": 327,
+    "feedback_code": "FB-000523-0029",
+    "interview_id": 523,
+    "interviewer_id": 29,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-04 11:00:00"
+  },
+  {
+    "feedback_id": 328,
+    "feedback_code": "FB-000523-0025",
+    "interview_id": 523,
+    "interviewer_id": 25,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-04 11:00:00"
+  },
+  {
+    "feedback_id": 329,
+    "feedback_code": "FB-000528-0017",
+    "interview_id": 528,
+    "interviewer_id": 17,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 12:00:00"
+  },
+  {
+    "feedback_id": 330,
+    "feedback_code": "FB-000528-0041",
+    "interview_id": 528,
+    "interviewer_id": 41,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-21 12:00:00"
+  },
+  {
+    "feedback_id": 331,
+    "feedback_code": "FB-000529-0031",
+    "interview_id": 529,
+    "interviewer_id": 31,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 332,
+    "feedback_code": "FB-000529-0047",
+    "interview_id": 529,
+    "interviewer_id": 47,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 333,
+    "feedback_code": "FB-000535-0030",
+    "interview_id": 535,
+    "interviewer_id": 30,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 11:00:00"
+  },
+  {
+    "feedback_id": 334,
+    "feedback_code": "FB-000535-0005",
+    "interview_id": 535,
+    "interviewer_id": 5,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-05 11:00:00"
+  },
+  {
+    "feedback_id": 335,
+    "feedback_code": "FB-000537-0027",
+    "interview_id": 537,
+    "interviewer_id": 27,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 12:00:00"
+  },
+  {
+    "feedback_id": 336,
+    "feedback_code": "FB-000537-0007",
+    "interview_id": 537,
+    "interviewer_id": 7,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 12:00:00"
+  },
+  {
+    "feedback_id": 337,
+    "feedback_code": "FB-000542-0010",
+    "interview_id": 542,
+    "interviewer_id": 10,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 11:00:00"
+  },
+  {
+    "feedback_id": 338,
+    "feedback_code": "FB-000542-0014",
+    "interview_id": 542,
+    "interviewer_id": 14,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 11:00:00"
+  },
+  {
+    "feedback_id": 339,
+    "feedback_code": "FB-000543-0033",
+    "interview_id": 543,
+    "interviewer_id": 33,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 13:00:00"
+  },
+  {
+    "feedback_id": 340,
+    "feedback_code": "FB-000543-0039",
+    "interview_id": 543,
+    "interviewer_id": 39,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-09 13:00:00"
+  },
+  {
+    "feedback_id": 341,
+    "feedback_code": "FB-000546-0023",
+    "interview_id": 546,
+    "interviewer_id": 23,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 16:00:00"
+  },
+  {
+    "feedback_id": 342,
+    "feedback_code": "FB-000546-0045",
+    "interview_id": 546,
+    "interviewer_id": 45,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 16:00:00"
+  },
+  {
+    "feedback_id": 343,
+    "feedback_code": "FB-000551-0028",
+    "interview_id": 551,
+    "interviewer_id": 28,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 16:00:00"
+  },
+  {
+    "feedback_id": 344,
+    "feedback_code": "FB-000551-0044",
+    "interview_id": 551,
+    "interviewer_id": 44,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 16:00:00"
+  },
+  {
+    "feedback_id": 345,
+    "feedback_code": "FB-000561-0021",
+    "interview_id": 561,
+    "interviewer_id": 21,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-23 13:00:00"
+  },
+  {
+    "feedback_id": 346,
+    "feedback_code": "FB-000561-0048",
+    "interview_id": 561,
+    "interviewer_id": 48,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-23 13:00:00"
+  },
+  {
+    "feedback_id": 347,
+    "feedback_code": "FB-000563-0004",
+    "interview_id": 563,
+    "interviewer_id": 4,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 13:00:00"
+  },
+  {
+    "feedback_id": 348,
+    "feedback_code": "FB-000563-0006",
+    "interview_id": 563,
+    "interviewer_id": 6,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 13:00:00"
+  },
+  {
+    "feedback_id": 349,
+    "feedback_code": "FB-000565-0049",
+    "interview_id": 565,
+    "interviewer_id": 49,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 11:00:00"
+  },
+  {
+    "feedback_id": 350,
+    "feedback_code": "FB-000565-0043",
+    "interview_id": 565,
+    "interviewer_id": 43,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-18 11:00:00"
+  },
+  {
+    "feedback_id": 351,
+    "feedback_code": "FB-000567-0012",
+    "interview_id": 567,
+    "interviewer_id": 12,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 16:00:00"
+  },
+  {
+    "feedback_id": 352,
+    "feedback_code": "FB-000567-0029",
+    "interview_id": 567,
+    "interviewer_id": 29,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-16 16:00:00"
+  },
+  {
+    "feedback_id": 353,
+    "feedback_code": "FB-000569-0022",
+    "interview_id": 569,
+    "interviewer_id": 22,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 16:00:00"
+  },
+  {
+    "feedback_id": 354,
+    "feedback_code": "FB-000569-0007",
+    "interview_id": 569,
+    "interviewer_id": 7,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 16:00:00"
+  },
+  {
+    "feedback_id": 355,
+    "feedback_code": "FB-000574-0001",
+    "interview_id": 574,
+    "interviewer_id": 1,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 13:00:00"
+  },
+  {
+    "feedback_id": 356,
+    "feedback_code": "FB-000574-0049",
+    "interview_id": 574,
+    "interviewer_id": 49,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-07 13:00:00"
+  },
+  {
+    "feedback_id": 357,
+    "feedback_code": "FB-000582-0035",
+    "interview_id": 582,
+    "interviewer_id": 35,
+    "rating": 2.0,
+    "recommendation": "NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 11:00:00"
+  },
+  {
+    "feedback_id": 358,
+    "feedback_code": "FB-000582-0049",
+    "interview_id": 582,
+    "interviewer_id": 49,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-17 11:00:00"
+  },
+  {
+    "feedback_id": 359,
+    "feedback_code": "FB-000584-0004",
+    "interview_id": 584,
+    "interviewer_id": 4,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 11:00:00"
+  },
+  {
+    "feedback_id": 360,
+    "feedback_code": "FB-000584-0011",
+    "interview_id": 584,
+    "interviewer_id": 11,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-19 11:00:00"
+  },
+  {
+    "feedback_id": 361,
+    "feedback_code": "FB-000590-0042",
+    "interview_id": 590,
+    "interviewer_id": 42,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 11:00:00"
+  },
+  {
+    "feedback_id": 362,
+    "feedback_code": "FB-000590-0031",
+    "interview_id": 590,
+    "interviewer_id": 31,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-13 11:00:00"
+  },
+  {
+    "feedback_id": 363,
+    "feedback_code": "FB-000592-0013",
+    "interview_id": 592,
+    "interviewer_id": 13,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 364,
+    "feedback_code": "FB-000592-0028",
+    "interview_id": 592,
+    "interviewer_id": 28,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-15 13:00:00"
+  },
+  {
+    "feedback_id": 365,
+    "feedback_code": "FB-000593-0037",
+    "interview_id": 593,
+    "interviewer_id": 37,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 11:00:00"
+  },
+  {
+    "feedback_id": 366,
+    "feedback_code": "FB-000593-0023",
+    "interview_id": 593,
+    "interviewer_id": 23,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-25 11:00:00"
+  },
+  {
+    "feedback_id": 367,
+    "feedback_code": "FB-000594-0049",
+    "interview_id": 594,
+    "interviewer_id": 49,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-12 13:00:00"
+  },
+  {
+    "feedback_id": 368,
+    "feedback_code": "FB-000594-0035",
+    "interview_id": 594,
+    "interviewer_id": 35,
+    "rating": 5.0,
+    "recommendation": "STRONG_YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-12 13:00:00"
+  },
+  {
+    "feedback_id": 369,
+    "feedback_code": "FB-000597-0033",
+    "interview_id": 597,
+    "interviewer_id": 33,
+    "rating": 4.0,
+    "recommendation": "YES",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 16:00:00"
+  },
+  {
+    "feedback_id": 370,
+    "feedback_code": "FB-000597-0038",
+    "interview_id": 597,
+    "interviewer_id": 38,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-26 16:00:00"
+  },
+  {
+    "feedback_id": 371,
+    "feedback_code": "FB-000600-0027",
+    "interview_id": 600,
+    "interviewer_id": 27,
+    "rating": 1.0,
+    "recommendation": "STRONG_NO",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 11:00:00"
+  },
+  {
+    "feedback_id": 372,
+    "feedback_code": "FB-000600-0024",
+    "interview_id": 600,
+    "interviewer_id": 24,
+    "rating": 3.0,
+    "recommendation": "MAYBE",
+    "comments": "Synthetic interview feedback.",
+    "submitted_at": "2026-10-10 11:00:00"
+  }
+]

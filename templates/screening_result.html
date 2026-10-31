@@ -1,0 +1,159 @@
+
+{% extends "base.html" %}
+
+{% block title %}Resume Screening Results{% endblock %}}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/screening.css') }}">
+{% endblock %}
+
+
+
+{% block content %}
+<div class="screening-page">
+
+    <div class="screening-header">
+        <div>
+            <p class="eyebrow">RECRUITMENT MANAGEMENT SYSTEM</p>
+            <h2>Resume Screening Results</h2>
+            <p class="subtitle">
+                Candidate skill analysis and shortlisting assessment
+            </p>
+        </div>
+
+        <a href="{{ url_for('applications') }}" class="back-btn">
+            &larr; Applications
+        </a>
+    </div>
+
+    <div class="screening-summary">
+        <div class="summary-card score-card">
+            <span class="card-label">Skill Match Score</span>
+            <div class="score-value">{{ result.match_score }}<span>%</span></div>
+            <div class="progress-track">
+                <div class="progress-fill"
+                     style="width: {{ result.match_score }}%">
+                </div>
+            </div>
+            <small>Minimum required: {{ result.minimum_match_required }}%</small>
+        </div>
+
+        <div class="summary-card">
+            <span class="card-label">Candidate Experience</span>
+            <div class="metric-value">{{ result.experience_years }}</div>
+            <span class="metric-caption">Years of experience</span>
+            <p class="metric-note">
+                Required: {{ result.minimum_experience_required }} years
+            </p>
+        </div>
+
+        <div class="summary-card">
+            <span class="card-label">Application ID</span>
+            <div class="metric-value">#{{ application_id }}</div>
+            <span class="metric-caption">Screening reference</span>
+            <p class="metric-note">Candidate ID: {{ result.candidate_id }}</p>
+        </div>
+    </div>
+
+    <div class="eligibility-card
+        {% if result.eligible_for_shortlisting %}
+            eligible
+        {% else %}
+            not-eligible
+        {% endif %}">
+
+        <div class="eligibility-icon">
+            {% if result.eligible_for_shortlisting %}
+                &#10003;
+            {% else %}
+                !
+            {% endif %}
+        </div>
+
+        <div>
+            <h3>
+                {% if result.eligible_for_shortlisting %}
+                    Eligible for Shortlisting
+                {% else %}
+                    Not Eligible for Shortlisting
+                {% endif %}
+            </h3>
+            <p>
+                {% if result.eligible_for_shortlisting %}
+                    The candidate meets the configured screening criteria.
+                {% else %}
+                    The candidate does not meet all configured screening criteria.
+                {% endif %}
+            </p>
+            <small>
+                This is a screening recommendation, not an automatic hiring decision.
+            </small>
+        </div>
+    </div>
+
+    <div class="skills-grid">
+        <section class="skills-card">
+            <div class="section-heading">
+                <h3>Matched Skills</h3>
+                <span class="count-badge matched-count">
+                    {{ result.matched_skills|length }}
+                </span>
+            </div>
+
+            <p class="section-description">
+                Required skills found in the candidate profile
+            </p>
+
+            <div class="skill-list">
+                {% for skill in result.matched_skills %}
+                    <span class="skill-badge matched-skill">
+                        &#10003; {{ skill }}
+                    </span>
+                {% else %}
+                    <p class="empty-message">No required skills matched.</p>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section class="skills-card">
+            <div class="section-heading">
+                <h3>Missing Skills</h3>
+                <span class="count-badge missing-count">
+                    {{ result.missing_skills|length }}
+                </span>
+            </div>
+
+            <p class="section-description">
+                Required skills not found in the candidate profile
+            </p>
+
+            <div class="skill-list">
+                {% for skill in result.missing_skills %}
+                    <span class="skill-badge missing-skill">
+                        {{ skill }}
+                    </span>
+                {% else %}
+                    <p class="empty-message">No required skills missing.</p>
+                {% endfor %}
+            </div>
+
+            {% if result.missing_mandatory_skills %}
+                <div class="mandatory-warning">
+                    <strong>Missing mandatory skills</strong>
+                    <p>
+                        {{ result.missing_mandatory_skills|join(", ") }}
+                    </p>
+                </div>
+            {% endif %}
+        </section>
+    </div>
+
+    <div class="screening-footer">
+        <span>RMS &bull; Resume Screening Module</span>
+        <a href="{{ url_for('applications') }}">Return to applications</a>
+    </div>
+
+</div>
+{% endblock %}

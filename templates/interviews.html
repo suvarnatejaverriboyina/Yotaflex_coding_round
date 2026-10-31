@@ -1,0 +1,126 @@
+
+{% extends "base.html" %}
+
+{% block title %}Interview Management | RMS{% endblock %}
+
+{% block content %}
+
+<div class="page-container interviews-container">
+
+    <div class="interviews-header">
+        <div>
+            <h1>Interview Management</h1>
+            <p>View scheduled interviews and manage candidate evaluations.</p>
+        </div>
+
+        <a href="{{ url_for('schedule_interview') }}"
+           class="btn btn-primary">
+            + Schedule Interview
+        </a>
+    </div>
+
+    {% if interviews %}
+
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Interview Code</th>
+                    <th>Candidate</th>
+                    <th>Application Code</th>
+                    <th>Round / Type</th>
+                    <th>Interviewers</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for interview in interviews %}
+                <tr>
+                    <td>
+                        <strong>{{ interview.interview_code }}</strong>
+                    </td>
+
+                    <td>
+                        {{ interview.full_name }}
+                        <br>
+                        <small>{{ interview.email }}</small>
+                    </td>
+
+                    <td>{{ interview.application_code }}</td>
+
+                    <td>
+                        Round {{ interview.interview_round }}
+                        <br>
+                        <small>{{ interview.interview_type }}</small>
+                    </td>
+
+                    <td>
+                        {{ interview.interviewer_names or "Not assigned" }}
+                    </td>
+
+                    <td>
+                        {% if interview.scheduled_start %}
+                            {{ interview.scheduled_start.strftime(
+                                "%d %b %Y, %I:%M %p"
+                            ) }}
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+
+                    <td>
+                        {% if interview.scheduled_end %}
+                            {{ interview.scheduled_end.strftime(
+                                "%d %b %Y, %I:%M %p"
+                            ) }}
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+
+                    <td>
+                        <span class="interview-status
+                            status-{{ interview.status|lower }}">
+                            {{ interview.status }}
+                        </span>
+                    </td>
+
+                    <td>
+                        <div class="interview-actions">
+
+                            <a href="{{ url_for(
+                                'view_interview_feedback',
+                                interview_id=interview.interview_id
+                            ) }}" class="btn btn-primary btn-small">
+                                View Feedback
+                            </a>
+
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    {% else %}
+
+    <div class="empty-state">
+        <h3>No Interviews Found</h3>
+        <p>No interviews have been scheduled yet.</p>
+
+        <a href="{{ url_for('schedule_interview') }}"
+           class="btn btn-primary">
+            Schedule Your First Interview
+        </a>
+    </div>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,74 @@
+
+{% extends "base.html" %}
+
+{% block title %}Interview Feedback | RMS{% endblock %}
+
+{% block content %}
+<div class="page-container feedback-container">
+    <h1>Interview Feedback</h1>
+    <p>Evaluate the candidate and record your recommendation.</p>
+
+    <div class="feedback-summary">
+        <p><strong>Candidate:</strong> {{ interview.full_name }}</p>
+        <p><strong>Application:</strong> {{ interview.application_code }}</p>
+        <p><strong>Interview:</strong> {{ interview.interview_code }}</p>
+        <p><strong>Round:</strong> {{ interview.interview_round }}</p>
+        <p><strong>Type:</strong> {{ interview.interview_type }}</p>
+    </div>
+
+    <form method="POST"
+          action="{{ url_for('submit_interview_feedback',
+                            interview_id=interview.interview_id) }}">
+
+        <div class="form-group">
+            <label for="interviewer_id">Interviewer</label>
+            <select id="interviewer_id" name="interviewer_id" required>
+                <option value="">Select interviewer</option>
+                {% for interviewer in interviewers %}
+                <option value="{{ interviewer.interviewer_id }}">
+                    {{ interviewer.interviewer_name }}
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="rating">Rating (1–5)</label>
+            <select id="rating" name="rating" required>
+                <option value="">Select rating</option>
+                <option value="1">1 - Poor</option>
+                <option value="2">2 - Below Expectations</option>
+                <option value="3">3 - Meets Expectations</option>
+                <option value="4">4 - Very Good</option>
+                <option value="5">5 - Excellent</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="recommendation">Recommendation</label>
+            <select id="recommendation" name="recommendation" required>
+                <option value="">Select recommendation</option>
+                <option value="SELECT">Select</option>
+                <option value="REJECT">Reject</option>
+                <option value="HOLD">Hold</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea id="comments"
+                      name="comments"
+                      rows="5"
+                      placeholder="Enter interview observations..."></textarea>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">
+                Submit Feedback
+            </button>
+            <a href="{{ url_for('list_interviews') }}"
+               class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

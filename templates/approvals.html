@@ -1,0 +1,60 @@
+
+{% extends "base.html" %}
+
+{% block title %}Approval Management | RMS{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Approval Management</h1>
+    <p>Review recruitment requests and record approval decisions.</p>
+</div>
+
+<div class="card">
+    <h2>Pending Approvals</h2>
+    <p>Requests awaiting an approval decision: {{ approvals|length }}</p>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Requisition ID</th>
+                    <th>Job Title</th>
+                    <th>Department</th>
+                    <th>Openings</th>
+                    <th>Salary Range</th>
+                    <th>Requested By</th>
+                    <th>Approver</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in approvals %}
+                <tr>
+                    <td>{{ item.requisition_code }}</td>
+                    <td>{{ item.job_title }}</td>
+                    <td>{{ item.department_name }}</td>
+                    <td>{{ item.openings }}</td>
+                    <td>
+                        ₹{{ "{:,.0f}".format(item.min_salary) }}
+                        – ₹{{ "{:,.0f}".format(item.max_salary) }}
+                    </td>
+                    <td>{{ item.requested_by }}</td>
+                    <td>{{ item.approver_name }}</td>
+                    <td>
+                        <a class="edit-btn"
+                           href="{{ url_for('review_approval',
+                               approval_id=item.approval_id) }}">
+                            Review
+                        </a>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="8">No pending approvals found.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

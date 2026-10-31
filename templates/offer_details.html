@@ -1,0 +1,143 @@
+
+{% extends "base.html" %}
+
+{% block title %}Offer Details{% endblock %}
+
+{% block content %}
+<div class="page-container">
+    <h2>Offer Details</h2>
+
+    <div class="approval-card">
+        <h3>{{ offer.offer_code }}</h3>
+
+        <!-- Issue Offer -->
+        {% if offer.status == 'APPROVED' %}
+            {% if session.get('role') in
+                ['SYSTEM_ADMIN', 'PROCESS_OWNER', 'OPERATIONS_ANALYST'] %}
+
+                <form method="POST"
+                      action="{{ url_for('issue_offer', offer_id=offer.offer_id) }}"
+                      onsubmit="return confirm('Issue this approved offer?');">
+
+                    <button type="submit" class="btn btn-primary">
+                        Issue Offer
+                    </button>
+                </form>
+
+            {% endif %}
+
+        <!-- Accept or Reject Offer -->
+        {% elif offer.status == 'ISSUED' %}
+            <p class="offer-status status-issued">
+                Offer Issued
+            </p>
+
+            {% if session.get('role') in
+                ['SYSTEM_ADMIN', 'PROCESS_OWNER', 'OPERATIONS_ANALYST'] %}
+
+                <div class="offer-response-actions">
+
+                    <form method="POST"
+                          action="{{ url_for('respond_to_offer', offer_id=offer.offer_id) }}"
+                          onsubmit="return confirm('Are you sure you want to accept this offer?');">
+
+                        <input type="hidden"
+                               name="decision"
+                               value="ACCEPTED">
+
+                        <button type="submit" class="btn btn-primary">
+                            Accept Offer
+                        </button>
+                    </form>
+
+                    <form method="POST"
+                          action="{{ url_for('respond_to_offer', offer_id=offer.offer_id) }}"
+                          onsubmit="return confirm('Are you sure you want to reject this offer?');">
+
+                        <input type="hidden"
+                               name="decision"
+                               value="REJECTED">
+
+                        <button type="submit" class="btn btn-danger">
+                            Reject Offer
+                        </button>
+                    </form>
+
+                </div>
+
+            {% endif %}
+
+        {% elif offer.status == 'ACCEPTED' %}
+            <p class="offer-status">
+                Candidate Response: Offer Accepted
+            </p>
+
+        {% elif offer.status == 'REJECTED' %}
+            <p class="offer-status">
+                Candidate Response: Offer Rejected
+            </p>
+
+        {% endif %}
+
+        <!-- Offer Information -->
+        <p><strong>Candidate:</strong> {{ offer.full_name }}</p>
+
+        <p><strong>Email:</strong> {{ offer.email }}</p>
+
+        <p><strong>Job Title:</strong> {{ offer.job_title }}</p>
+
+        <p><strong>Application:</strong>
+            {{ offer.application_code }}
+        </p>
+
+        <p><strong>Salary:</strong>
+            {{ offer.currency }} {{ offer.offered_salary }}
+        </p>
+
+        <p><strong>Status:</strong> {{ offer.status }}</p>
+
+        <p><strong>Issued At:</strong>
+            {{ offer.issued_at or "Not issued" }}
+        </p>
+
+        <p><strong>Expires At:</strong>
+            {{ offer.expires_at or "Not set" }}
+        </p>
+
+        <p><strong>Response Date:</strong>
+            {{ offer.responded_at or "No response recorded" }}
+        </p>
+    </div>
+
+    <!-- Approval History -->
+    <h3>Approval History</h3>
+
+    {% if approvals %}
+        {% for item in approvals %}
+            <div class="approval-card">
+                <p><strong>Approver:</strong>
+                    {{ item.approver_name }}
+                </p>
+
+                <p><strong>Decision:</strong>
+                    {{ item.decision }}
+                </p>
+
+                <p><strong>Comments:</strong>
+                    {{ item.comments or "No comments" }}
+                </p>
+
+                <p><strong>Decision Date:</strong>
+                    {{ item.decided_at or "Pending" }}
+                </p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No approval records found for this offer.</p>
+    {% endif %}
+
+    <a class="btn-secondary" href="{{ url_for('list_offers') }}">
+        Back to Offers
+    </a>
+</div>
+{% endblock %}
